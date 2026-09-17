@@ -12,7 +12,8 @@ https://docs.google.com/document/d/1O3AgjvM2_tZX7ABNkbS3lNtyRqeFLNvJ6qVK9URJxNs/
 | Drivers moteur | DRV8833 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Drivers_drv8833.pdf) | x2 |
 | Gyroscope/accelerometre | MPU6050 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Gyro_MPU-6000_DATASHEET.pdf) | x1 |
 | Servomotor | SER0039 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Servo_SER0039.pdf) | x2 |
-| TOF sensor | VL53LL0X | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/TOF_vl53l0x.pdf) | x2 |
+| TOF sensor | VL53LL0X | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/TOF_vl53l0x.pdf) [Breakout Board](https://github.com/lfiack/ENSEA_VL53L0CXV0DH-1)
+| x2 |
 | Capteur de couleur | Adafruit APDS9960 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Capteur_Couleur_9075d4adc221e10b04bda232a5ca3905.pdf) | x1 |
 | Fuel Gauge | BQ25896 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Fuel_Gauge_bq25896.pdf) | x1 |  
 | Batterie Lithium | XX | Fournie par ENSEA | x1 |
