@@ -10,6 +10,7 @@ https://docs.google.com/document/d/1O3AgjvM2_tZX7ABNkbS3lNtyRqeFLNvJ6qVK9URJxNs/
 |-----------|-----------|------|----------|
 | STM32 | CPU_DS_stm32g431rb | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/CPU_DS_stm32g431rb.pdf) | x1 |
 | Drivers moteur | DRV8833 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Drivers_drv8833.pdf) | x1 |
+| Moteurs | FIT0483 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Datasheet_moteur_FIT0483.pdf) | x2|
 | Gyroscope/accelerometre | MPU6050 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Gyro_MPU-6000_DATASHEET.pdf) | x1 |
 | Servomotor | SER0039 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Servo_SER0039.pdf) | x2 |
 | TOF sensor | VL53LL0X | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/TOF_vl53l0x.pdf) [Breakout Board](https://github.com/lfiack/ENSEA_VL53L0CXV0DH-1)| x1 |
