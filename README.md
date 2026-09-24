@@ -13,6 +13,6 @@
 | Servomotor | SER0039 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Servo_SER0039.pdf) | x2 |
 | TOF sensor | VL53LL0X | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/TOF_vl53l0x.pdf) [Breakout Board](https://github.com/lfiack/ENSEA_VL53L0CXV0DH-1)| x1 |
 | Capteur de couleur | Adafruit APDS9960 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Capteur_Couleur_9075d4adc221e10b04bda232a5ca3905.pdf) | x1 |
-| BMS | BQ25896 | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Fuel_Gauge_bq25896.pdf) | x1 |  
+| BMS | BQ25896RTWR | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/Fuel_Gauge_bq25896.pdf) | x1 |  
 | Batterie Lithium | XX | Fournie par ENSEA | x1 |
 | Fuel Gauge | BQ27220YZFR | [Datasheet](https://www.ti.com/lit/ds/symlink/bq27220.pdf?ts=1790240333206&ref_url=https%253A%252F%252Fwww.mouser.fr%252F) | x1 |
