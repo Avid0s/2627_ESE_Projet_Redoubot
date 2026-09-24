@@ -9881,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "33p"
 			(at 81.28 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10470,7 +10470,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "8MHz"
 			(at 87.63 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11542,7 +11542,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "33p"
 			(at 81.28 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
