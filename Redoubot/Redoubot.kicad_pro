@@ -429,13 +429,21 @@
         "uuid": "43131b41-4104-4cd6-9c2f-4d5da1687300"
       }
     ],
-    "used_designators": "R1-10,BT1,L1,D1-2,C1-10,#PWR1-12,J1-7,U1-3",
+    "used_designators": "R1-19,BT1,L1-2,D1-4,C1-20,Y1,#PWR1-21,J1-7,U1-5",
     "variants": []
   },
   "sheets": [
     [
       "43131b41-4104-4cd6-9c2f-4d5da1687300",
       "Root"
+    ],
+    [
+      "73350c17-84ab-42d8-b086-6cfec23927e8",
+      "Power"
+    ],
+    [
+      "6319d978-6c6a-440c-b0e5-feb4687d4119",
+      "Connectors"
     ]
   ],
   "text_variables": {},
