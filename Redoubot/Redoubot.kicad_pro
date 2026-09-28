@@ -439,11 +439,19 @@
     ],
     [
       "73350c17-84ab-42d8-b086-6cfec23927e8",
-      "Power"
+      "Power_management"
     ],
     [
       "6319d978-6c6a-440c-b0e5-feb4687d4119",
       "Connectors"
+    ],
+    [
+      "b7c7d3a9-6fc5-4331-a1be-dcf952831da1",
+      "Drivers"
+    ],
+    [
+      "cb837de0-4a4b-4fb1-a7fc-e81199cc418b",
+      "Sensors"
     ]
   ],
   "text_variables": {},

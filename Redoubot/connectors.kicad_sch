@@ -1089,16 +1089,16 @@
 		(uuid "5677d286-d089-45da-b491-17824952fd4e")
 	)
 	(no_connect
-		(at 97.79 80.01)
+		(at 74.93 73.66)
 		(uuid "62a0047e-9089-4286-9427-1760c4b8cfc4")
 	)
 	(no_connect
-		(at 97.79 77.47)
+		(at 74.93 71.12)
 		(uuid "deab45b1-61b2-48ad-ade3-c2bd5f649879")
 	)
 	(wire
 		(pts
-			(xy 90.17 48.26) (xy 85.09 48.26)
+			(xy 153.67 45.72) (xy 148.59 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1108,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 44.45) (xy 90.17 48.26)
+			(xy 153.67 41.91) (xy 153.67 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 50.8) (xy 90.17 54.61)
+			(xy 153.67 48.26) (xy 153.67 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 50.8) (xy 90.17 50.8)
+			(xy 148.59 48.26) (xy 153.67 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 44.45) (xy 90.17 44.45)
+			(xy 154.94 41.91) (xy 153.67 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1148,7 @@
 	)
 	(global_label "SCL_MPU"
 		(shape input)
-		(at 97.79 72.39 0)
+		(at 74.93 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1158,7 +1158,7 @@
 		)
 		(uuid "1f437f39-7b9b-48b1-9e9f-6148998403be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.3023 72.39 0)
+			(at 86.4423 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1172,7 +1172,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 97.79 69.85 0)
+		(at 74.93 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1182,7 +1182,7 @@
 		)
 		(uuid "2845e97c-ed7c-42a8-9614-144da5a2a723")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.6457 69.85 0)
+			(at 81.7857 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1388,7 +1388,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 91.44 44.45 0)
+		(at 154.94 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1398,7 +1398,7 @@
 		)
 		(uuid "a111fefb-a4db-4485-aabb-3831ded0f1d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7233 44.45 0)
+			(at 160.2233 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1508,7 +1508,7 @@
 	)
 	(global_label "SDA_MPU"
 		(shape input)
-		(at 97.79 74.93 0)
+		(at 74.93 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1518,7 +1518,7 @@
 		)
 		(uuid "d6297219-b086-4eef-a56e-2dfc41152a28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.3628 74.93 0)
+			(at 86.5028 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1556,7 +1556,7 @@
 	)
 	(global_label "AD0_MPU"
 		(shape input)
-		(at 97.79 82.55 0)
+		(at 74.93 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1566,7 +1566,7 @@
 		)
 		(uuid "e580ebed-2566-411d-98f5-77bdd6967803")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.3628 82.55 0)
+			(at 86.5028 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1580,7 +1580,7 @@
 	)
 	(global_label "INT_MPU"
 		(shape input)
-		(at 97.79 85.09 0)
+		(at 74.93 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1590,7 +1590,7 @@
 		)
 		(uuid "e65cb9dc-3700-423d-8976-ce1b6dbd1b65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.6976 85.09 0)
+			(at 85.8376 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1604,7 +1604,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 97.79 67.31 0)
+		(at 74.93 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1614,7 +1614,7 @@
 		)
 		(uuid "eeab07d9-ebd2-412a-a04e-de6c7ab1e0df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.0733 67.31 0)
+			(at 80.2133 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +1676,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 92.71 74.93 0)
+		(at 69.85 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1687,7 +1687,7 @@
 		(fields_autoplaced yes)
 		(uuid "253cfbe6-ea9c-4c36-aa75-ba40c0da5110")
 		(property "Reference" "J5"
-			(at 93.345 62.23 0)
+			(at 70.485 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1697,7 +1697,7 @@
 			)
 		)
 		(property "Value" "MPU-6050"
-			(at 93.345 64.77 0)
+			(at 70.485 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1707,7 +1707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 74.93 0)
+			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1718,7 +1718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 74.93 0)
+			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1729,7 +1729,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 92.71 74.93 0)
+			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,7 +1946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 54.61 0)
+		(at 153.67 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1957,7 +1957,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4fc729d-03e3-4a6d-8ad6-085b7f671c90")
 		(property "Reference" "#PWR01"
-			(at 90.17 60.96 0)
+			(at 153.67 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1968,7 +1968,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 59.69 0)
+			(at 153.67 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1978,7 +1978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 54.61 0)
+			(at 153.67 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 54.61 0)
+			(at 153.67 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2000,7 +2000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 54.61 0)
+			(at 153.67 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2024,7 +2024,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 80.01 48.26 0)
+		(at 143.51 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2035,7 +2035,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7f242a5-cdc5-4b84-a496-4ea37921181c")
 		(property "Reference" "J1"
-			(at 80.645 43.18 0)
+			(at 144.145 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2045,7 +2045,7 @@
 			)
 		)
 		(property "Value" "Connecteur batterie"
-			(at 80.645 45.72 0)
+			(at 144.145 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2055,7 +2055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 48.26 0)
+			(at 143.51 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,7 +2066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 48.26 0)
+			(at 143.51 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2077,7 +2077,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 80.01 48.26 0)
+			(at 143.51 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
