@@ -2215,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 165.1 63.5)
+			(xy 157.48 63.5) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 43.18) (xy 161.29 43.18)
+			(xy 162.56 43.18) (xy 157.48 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 60.96) (xy 165.1 60.96)
+			(xy 157.48 60.96) (xy 165.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 71.12) (xy 227.33 71.12)
+			(xy 222.25 71.12) (xy 240.03 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3065,7 +3065,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 55.88) (xy 162.56 55.88)
+			(xy 157.48 55.88) (xy 162.56 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3123,30 +3123,6 @@
 		)
 		(uuid "e775628f-2d29-4111-9c5f-5b896af40fdd")
 	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 161.29 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0bac5ed-9079-4a18-b184-923c3d8039af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.62 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(hierarchical_label "SYS"
 		(shape input)
 		(at 43.18 66.04 180)
@@ -3160,7 +3136,7 @@
 	)
 	(hierarchical_label "GPOUT_FUEL_GAUGE"
 		(shape output)
-		(at 152.4 55.88 180)
+		(at 157.48 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3169,7 +3145,7 @@
 		)
 		(uuid "322f0be8-9089-40fc-b4b0-1df170282f2e")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "+5V"
 		(shape input)
 		(at 52.07 27.94 0)
 		(effects
@@ -3191,9 +3167,20 @@
 		)
 		(uuid "3bba713c-767d-448b-b39e-cdc8344e7cec")
 	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 157.48 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ab1e3c2-1bd7-465e-a9f1-6d3871efce41")
+	)
 	(hierarchical_label "BAT"
 		(shape input)
-		(at 227.33 71.12 0)
+		(at 240.03 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3226,7 +3213,7 @@
 	)
 	(hierarchical_label "SDA_BAT"
 		(shape bidirectional)
-		(at 152.4 60.96 180)
+		(at 157.48 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3235,7 +3222,7 @@
 		)
 		(uuid "a10e9d51-d153-47d1-9438-b35f48ca1f84")
 	)
-	(hierarchical_label "3.3V"
+	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 31.75 102.87 180)
 		(effects
@@ -3270,7 +3257,7 @@
 	)
 	(hierarchical_label "SCL_BAT"
 		(shape input)
-		(at 152.4 63.5 180)
+		(at 157.48 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)

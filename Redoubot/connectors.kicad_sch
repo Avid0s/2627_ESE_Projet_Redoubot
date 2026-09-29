@@ -1649,7 +1649,7 @@
 		(uuid "034e72a4-ce07-40e7-9863-c1182f878181")
 	)
 	(hierarchical_label "BAT"
-		(shape input)
+		(shape output)
 		(at 121.92 45.72 0)
 		(effects
 			(font

@@ -447,11 +447,11 @@
     ],
     [
       "b7c7d3a9-6fc5-4331-a1be-dcf952831da1",
-      "Motor_Driver"
+      "Motor_Driver_Right"
     ],
     [
       "089490fe-51aa-455e-8e68-3144de50c1de",
-      "Motor_Driver1"
+      "Motor_Driver_Left"
     ]
   ],
   "text_variables": {},
