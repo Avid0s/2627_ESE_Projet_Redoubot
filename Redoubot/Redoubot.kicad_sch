@@ -4147,7 +4147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
 			(at 34.29 49.53 0)
 			(hide yes)
 			(show_name no)

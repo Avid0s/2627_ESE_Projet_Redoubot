@@ -1607,7 +1607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.09 50.8 0)
 			(hide yes)
 			(show_name no)
