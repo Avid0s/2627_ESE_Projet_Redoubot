@@ -1,1 +1,71 @@
-.history/
+# ==========================================
+# KiCad
+# ==========================================
+# Fichiers de sauvegarde automatique et temporaires
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*~
+_autosave-*
+*.tmp
+
+# Fichiers de verrouillage
+*.lck
+
+# Dossiers et fichiers de fabrication / export (décommente si tu ne veux pas versionner tes sorties)
+# gerber/
+# gerbers/
+# *.gbr
+# *.drl
+# *.pdf
+
+# Rapports DRC / ERC et logs
+*.rpt
+*.erc
+*.drc
+fp-info-cache
+*.log
+
+
+# ==========================================
+# STM32CubeIDE (Eclipse / GCC ARM)
+# ==========================================
+# Dossiers de compilation
+Debug/
+Release/
+[Bb]uild/
+
+# Fichiers objets, dépendances et binaires générés
+*.o
+*.obj
+*.d
+*.su
+*.map
+*.elf
+*.hex
+*.bin
+*.srec
+*.axf
+
+# Fichiers et dossiers spécifiques à Eclipse / STM32CubeIDE
+.settings/language.settings.xml
+.metadata/
+*.launch
+*.launch.tmp
+
+# Ne pas ignorer la configuration essentielle du projet Eclipse :
+# On conserve explicitement .project, .cproject et .ioc
+!.project
+!.cproject
+!*.ioc
+
+
+# ==========================================
+# Fichiers système & OS
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+# Written by Gemini
