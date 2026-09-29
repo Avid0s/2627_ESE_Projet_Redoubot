@@ -5545,7 +5545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024H"
+		(property "Footprint" "footprints_BQ25:RTW0024H"
 			(at 78.74 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5570,6 +5570,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C181475"
 			(at 78.74 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6174,7 +6185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YZF9_TEX"
+		(property "Footprint" "footprints_BQ27:YZF9_TEX"
 			(at 165.1 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6199,6 +6210,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C528617"
 			(at 165.1 58.42 0)
 			(hide yes)
 			(show_name no)

@@ -1809,6 +1809,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C50506"
+			(at 104.14 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe1ac205-b479-4234-afee-af6879146096")
 		)

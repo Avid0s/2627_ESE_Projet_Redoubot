@@ -2256,6 +2256,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C24112"
+			(at 107.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "100986b4-469f-4fa6-a47f-f969b3f4667b")
 		)
@@ -3211,6 +3222,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C91199"
 			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
