@@ -18,8 +18,12 @@
 | Fuel Gauge | BQ27220YZFR | [Datasheet](https://www.ti.com/lit/ds/symlink/bq27220.pdf?ts=1790240333206&ref_url=https%253A%252F%252Fwww.mouser.fr%252F) | x1 |
 
 La facon dont l'implémentation de fonctionnalités sera faite sera la suivante:
+
 1 branche = 1 fonctionnalitée
+
 Les branches seront nommées JMA/nom_de_la_fonctionnalitée pour une branche fonctionnalité de J. Mansard par exemple
+
 Aucun push ne sera fait directement sur le main, tout sera merge post peer review
+
 Cette methodologie vise à éviter les merge conflicts et simplifier l'assemblage des différents modules
 
