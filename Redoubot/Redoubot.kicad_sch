@@ -2188,7 +2188,7 @@
 		)
 		(uuid "2f674abe-bf93-41bf-b30e-6a8e9644bac2")
 	)
-	(text "XSHUT_TOF NOT WIRED\nINT_ADA NOT WIRED\nGPIO_OUR_FG NOT WIRED\nPWR_INT NOT WIRED\nSYS NOT WIRED\nPWM_NEOPIXEL NOT WIRED\nCONTROL_SERVO_RIGHT & LEFT NOT WIRED\nGPOUT_FUEL_GAUGE NOT WIRED"
+	(text "XSHUT_TOF NOT WIRED\nINT_ADA NOT WIRED\nGPIO_OUR_FG NOT WIRED\nPWR_INT NOT WIRED\nSYS NOT WIRED\nPWM_NEOPIXEL NOT WIRED\nCONTROL_SERVO_RIGHT & LEFT NOT WIRED\nGPOUT_FUEL_GAUGE NOT WIRED\nEVERYTHING HM10 RELATED NOT WIRED\n"
 		(exclude_from_sim no)
 		(at 42.926 134.62 0)
 		(effects
@@ -2380,6 +2380,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 85.09) (xy 185.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e056ba-d641-4ace-b464-fa700d9298d0")
+	)
+	(wire
+		(pts
+			(xy 241.3 86.36) (xy 254 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c408b2-7b66-4141-9c4a-07a0cfd13644")
+	)
+	(wire
+		(pts
 			(xy 241.3 62.23) (xy 254 62.23)
 		)
 		(stroke
@@ -2487,6 +2507,16 @@
 			(type default)
 		)
 		(uuid "486d0775-f36a-4b8c-a2e1-3bb898a79d18")
+	)
+	(wire
+		(pts
+			(xy 241.3 91.44) (xy 254 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519fcb0d-5828-4c65-aedd-c4abdc44c30b")
 	)
 	(wire
 		(pts
@@ -2710,6 +2740,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 93.98) (xy 254 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c06913d-a9fb-43f9-8890-7785ea518658")
+	)
+	(wire
+		(pts
 			(xy 83.82 71.12) (xy 81.28 71.12)
 		)
 		(stroke
@@ -2827,6 +2867,16 @@
 			(type default)
 		)
 		(uuid "ae5d89f4-e5f9-4f96-bd44-e7ab9e98b9a5")
+	)
+	(wire
+		(pts
+			(xy 241.3 88.9) (xy 254 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae672eb3-7081-4f2f-946f-93eccca82e19")
 	)
 	(wire
 		(pts
@@ -3098,6 +3148,16 @@
 		)
 		(uuid "28bcc191-7427-46f0-b391-e8eef0983173")
 	)
+	(label "TXD_HM10"
+		(at 254 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d4c9443-77bc-4d0a-b8c9-c6a1e6fb01ae")
+	)
 	(label "SDA_ADA"
 		(at 88.9 73.66 0)
 		(effects
@@ -3167,6 +3227,16 @@
 			(justify left bottom)
 		)
 		(uuid "58e29c83-ad8b-44a3-9b57-1eaa8e8c49b9")
+	)
+	(label "+5V"
+		(at 175.26 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "616bfe6d-10a2-4b50-8a3b-ee19bd74e12b")
 	)
 	(label "+5V"
 		(at 175.26 63.5 180)
@@ -3278,6 +3348,16 @@
 		)
 		(uuid "89e92d43-bb81-4946-ad69-286fc884e71c")
 	)
+	(label "STATE_HM10"
+		(at 254 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90b55535-b79b-4fad-a911-8b572dc174d7")
+	)
 	(label "SCL_BAT"
 		(at 132.08 143.51 180)
 		(effects
@@ -3307,6 +3387,16 @@
 			(justify right bottom)
 		)
 		(uuid "ac2a58d1-b877-494b-a266-2d95047e8c38")
+	)
+	(label "RXD_HM10"
+		(at 254 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad2e768f-02fc-4e57-a8e0-270b6ab2a234")
 	)
 	(label "+3.3V"
 		(at 175.26 78.74 180)
@@ -3357,6 +3447,16 @@
 			(justify left bottom)
 		)
 		(uuid "bbd3fc96-6d8c-491f-81b9-f18617ca3c5a")
+	)
+	(label "BRK_HM10"
+		(at 254 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc2203ec-795f-439b-99d8-c39c4992e02f")
 	)
 	(label "SCL_MPU"
 		(at 254 81.28 0)
@@ -4204,7 +4304,7 @@
 	)
 	(sheet
 		(at 185.42 48.26)
-		(size 55.88 36.83)
+		(size 55.88 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4230,7 +4330,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 185.42 85.6746 0)
+			(at 185.42 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4448,6 +4548,56 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BRK_HM10" input
+			(at 241.3 93.98 0)
+			(uuid "f1db2ff9-d9ce-4372-9429-e2f09490e2b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD_HM10" input
+			(at 241.3 88.9 0)
+			(uuid "196b0def-8a76-4138-953f-dd6e38e450f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STATE_HM10" input
+			(at 241.3 86.36 0)
+			(uuid "16c619c7-a9ea-4c4d-ab4e-ea9328622967")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD_HM10" input
+			(at 241.3 91.44 0)
+			(uuid "edf06b2f-74a7-468d-b245-3da59a2b0062")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_HM_10" input
+			(at 185.42 85.09 180)
+			(uuid "26e48b92-3ccf-40fc-8f37-3c28b9932cc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
