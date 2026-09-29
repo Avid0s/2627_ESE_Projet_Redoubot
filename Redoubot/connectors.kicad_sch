@@ -2223,7 +2223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 107.95 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2332,7 +2332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 133.35 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2415,7 +2415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 170.18 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2513,7 +2513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
 			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2593,7 +2593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 176.53 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2676,7 +2676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 137.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2774,7 +2774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 82.55 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2866,7 +2866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 82.55 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2958,7 +2958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 133.35 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3119,7 +3119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3302,7 +3302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
 			(at 107.95 73.66 0)
 			(hide yes)
 			(show_name no)
