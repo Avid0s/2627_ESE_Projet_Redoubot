@@ -3199,7 +3199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
