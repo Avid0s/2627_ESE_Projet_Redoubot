@@ -3382,7 +3382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
 			(at 29.21 111.76 0)
 			(hide yes)
 			(show_name no)
