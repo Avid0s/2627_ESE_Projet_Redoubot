@@ -1452,7 +1452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24d19c11-9763-4112-b167-fee72826a7fa")
-		(property "Reference" "C1"
+		(property "Reference" "C17"
 			(at 123.19 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1516,7 +1516,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/b7c7d3a9-6fc5-4331-a1be-dcf952831da1"
-					(reference "C1")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1533,7 +1533,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2efb99a9-d9c0-4157-8bd1-ace689c45ef8")
-		(property "Reference" "R1"
+		(property "Reference" "R19"
 			(at 85.09 48.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1595,7 +1595,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/b7c7d3a9-6fc5-4331-a1be-dcf952831da1"
-					(reference "R1")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1612,7 +1612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49ca91b4-5d38-421a-bb14-9535ba8c2ab1")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR022"
 			(at 78.74 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1672,7 +1672,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/b7c7d3a9-6fc5-4331-a1be-dcf952831da1"
-					(reference "#PWR02")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1690,7 +1690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e58ccd1-ea72-490c-9783-8110eb9e94d5")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 106.2833 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +1812,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/b7c7d3a9-6fc5-4331-a1be-dcf952831da1"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1829,7 +1829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "758cc4e7-3d93-41b7-b0e0-43d073a9579e")
-		(property "Reference" "C3"
+		(property "Reference" "C18"
 			(at 125.984 44.958 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1891,7 +1891,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/b7c7d3a9-6fc5-4331-a1be-dcf952831da1"
-					(reference "C3")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1908,7 +1908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76470255-2406-4850-a7af-7d4bd8dd245a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR024"
 			(at 113.03 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -1968,7 +1968,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/b7c7d3a9-6fc5-4331-a1be-dcf952831da1"
-					(reference "#PWR03")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1986,7 +1986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "788dc1c5-73dd-4ee0-8707-800d86aa0f7e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR025"
 			(at 124.46 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2046,7 +2046,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/b7c7d3a9-6fc5-4331-a1be-dcf952831da1"
-					(reference "#PWR04")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2063,7 +2063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2b5818f-6257-4d5d-9ca1-b1d21a317e50")
-		(property "Reference" "C2"
+		(property "Reference" "C16"
 			(at 106.426 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2127,7 +2127,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/b7c7d3a9-6fc5-4331-a1be-dcf952831da1"
-					(reference "C2")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2145,7 +2145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ff94f2-b01d-44a1-93b6-6b632cebe1b2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR023"
 			(at 104.14 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2205,7 +2205,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/b7c7d3a9-6fc5-4331-a1be-dcf952831da1"
-					(reference "#PWR011")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

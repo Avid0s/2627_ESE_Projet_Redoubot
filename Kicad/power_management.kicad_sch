@@ -1743,6 +1743,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -2015,7 +2156,7 @@
 	)
 	(text "Fuel Gauge"
 		(exclude_from_sim no)
-		(at 185.42 55.118 0)
+		(at 203.2 52.578 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2076,7 +2217,7 @@
 		(uuid "302e2f4b-cf33-419b-8071-7adac8b47fb5")
 	)
 	(junction
-		(at 154.94 80.01)
+		(at 172.72 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30893cc8-0b4f-4cd9-8dd8-24d6f194a0cb")
@@ -2088,19 +2229,19 @@
 		(uuid "34839106-cfb1-4581-8c72-63cd058a565f")
 	)
 	(junction
-		(at 226.06 55.88)
+		(at 243.84 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3500179b-f494-4362-ae2c-1d780f3c1370")
 	)
 	(junction
-		(at 162.56 55.88)
+		(at 180.34 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38d47e1e-faed-4a2a-9d56-c2b0d451e26a")
 	)
 	(junction
-		(at 223.52 71.12)
+		(at 241.3 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39e3a3cb-a9ec-4515-b211-66b11580b8e4")
@@ -2118,7 +2259,7 @@
 		(uuid "47118c95-957d-4315-9c38-1586e9b42f89")
 	)
 	(junction
-		(at 215.9 71.12)
+		(at 233.68 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5619b7ca-456b-475e-a672-9a952fcb18c5")
@@ -2130,7 +2271,7 @@
 		(uuid "5a3398ba-67bc-4038-a66d-e8e7deb3da32")
 	)
 	(junction
-		(at 52.07 31.75)
+		(at 46.99 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68b2fcef-fae0-497a-a01c-60da5159face")
@@ -2178,13 +2319,13 @@
 		(uuid "9d3ef184-349f-46d2-bbf4-55450f543c20")
 	)
 	(junction
-		(at 162.56 71.12)
+		(at 180.34 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b10d8051-9a02-4f0b-bc29-9d528ba1d1ca")
 	)
 	(junction
-		(at 226.06 71.12)
+		(at 243.84 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf3c9053-d14a-47b8-ba6f-38ca547faa00")
@@ -2223,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 63.5) (xy 165.1 63.5)
+			(xy 175.26 60.96) (xy 182.88 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 71.12) (xy 217.17 71.12)
+			(xy 231.14 68.58) (xy 234.95 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 31.75) (xy 52.07 31.75)
+			(xy 41.91 31.75) (xy 58.42 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 66.04) (xy 205.74 66.04)
+			(xy 233.68 63.5) (xy 223.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2383,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 63.5) (xy 223.52 71.12)
+			(xy 241.3 60.96) (xy 241.3 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 43.18) (xy 157.48 43.18)
+			(xy 180.34 40.64) (xy 175.26 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2503,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 58.42) (xy 162.56 55.88)
+			(xy 180.34 55.88) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2513,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 215.9 66.04)
+			(xy 233.68 68.58) (xy 233.68 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 55.88) (xy 234.95 55.88)
+			(xy 223.52 53.34) (xy 252.73 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2533,17 +2674,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 31.75) (xy 58.42 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52eeca19-a994-467c-8503-a285ac379552")
-	)
-	(wire
-		(pts
-			(xy 162.56 55.88) (xy 162.56 53.34)
+			(xy 180.34 53.34) (xy 180.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2573,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 154.94 80.01)
+			(xy 172.72 76.2) (xy 172.72 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 80.01) (xy 154.94 80.01)
+			(xy 180.34 77.47) (xy 172.72 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2593,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 63.5) (xy 223.52 63.5)
+			(xy 223.52 60.96) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2603,7 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 71.12) (xy 162.56 73.66)
+			(xy 180.34 68.58) (xy 180.34 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 59.69) (xy 208.28 59.69)
+			(xy 224.79 57.15) (xy 226.06 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 154.94 71.12)
+			(xy 172.72 71.12) (xy 172.72 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2673,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 71.12) (xy 207.01 72.39)
+			(xy 224.79 68.58) (xy 224.79 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2733,6 +2864,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 116.84) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8e8e75-0fdc-4ff4-af35-e709a1c31041")
+	)
+	(wire
+		(pts
 			(xy 109.22 50.8) (xy 109.22 52.07)
 		)
 		(stroke
@@ -2743,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 60.96) (xy 165.1 60.96)
+			(xy 175.26 58.42) (xy 182.88 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2763,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 58.42) (xy 162.56 58.42)
+			(xy 182.88 55.88) (xy 180.34 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +2924,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 59.69) (xy 207.01 58.42)
+			(xy 222.25 116.84) (xy 222.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e29a28-6f38-4c2d-84b2-1a927cc27200")
+	)
+	(wire
+		(pts
+			(xy 224.79 57.15) (xy 224.79 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 55.88) (xy 226.06 71.12)
+			(xy 243.84 53.34) (xy 243.84 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +2984,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 71.12) (xy 240.03 71.12)
+			(xy 240.03 68.58) (xy 257.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 71.12) (xy 165.1 71.12)
+			(xy 180.34 68.58) (xy 182.88 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2853,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 48.26) (xy 162.56 43.18)
+			(xy 180.34 45.72) (xy 180.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2863,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 71.12) (xy 207.01 71.12)
+			(xy 223.52 68.58) (xy 224.79 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2903,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 58.42) (xy 205.74 58.42)
+			(xy 224.79 55.88) (xy 223.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2933,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 162.56 80.01)
+			(xy 180.34 76.2) (xy 180.34 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2943,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 80.01) (xy 154.94 82.55)
+			(xy 172.72 77.47) (xy 172.72 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2983,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 63.5) (xy 234.95 62.23)
+			(xy 252.73 60.96) (xy 252.73 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2993,7 +3144,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 59.69) (xy 218.44 59.69)
+			(xy 231.14 57.15) (xy 236.22 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3003,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 27.94) (xy 52.07 31.75)
+			(xy 46.99 26.67) (xy 46.99 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3023,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 55.88) (xy 234.95 57.15)
+			(xy 252.73 53.34) (xy 252.73 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3083,7 +3234,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 55.88) (xy 162.56 55.88)
+			(xy 175.26 53.34) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3093,7 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 71.12) (xy 162.56 71.12)
+			(xy 172.72 68.58) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +3273,7 @@
 		(uuid "7d786d0f-48e4-4b55-9494-e0d717ba9772")
 	)
 	(label "BAT_CHG"
-		(at 213.36 71.12 180)
+		(at 231.14 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3154,7 +3305,7 @@
 	)
 	(hierarchical_label "GPOUT_FUEL_GAUGE"
 		(shape output)
-		(at 157.48 55.88 180)
+		(at 175.26 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3165,7 +3316,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape bidirectional)
-		(at 52.07 27.94 0)
+		(at 46.99 26.67 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3187,7 +3338,18 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 157.48 43.18 180)
+		(at 222.25 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f6c09c6-c395-4798-979d-5a540eb78b10")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 175.26 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3198,7 +3360,7 @@
 	)
 	(hierarchical_label "BAT"
 		(shape input)
-		(at 240.03 71.12 0)
+		(at 257.81 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3231,7 +3393,7 @@
 	)
 	(hierarchical_label "SDA_BAT"
 		(shape bidirectional)
-		(at 157.48 60.96 180)
+		(at 175.26 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3250,6 +3412,17 @@
 			(justify right)
 		)
 		(uuid "a19cf8dc-d6b5-4fd6-af45-4d5996960169")
+	)
+	(hierarchical_label "+5V"
+		(shape bidirectional)
+		(at 200.66 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a29465dc-d751-4a9e-bde0-3e93e0b0031d")
 	)
 	(hierarchical_label "OTG_EN"
 		(shape input)
@@ -3286,7 +3459,7 @@
 	)
 	(hierarchical_label "SCL_BAT"
 		(shape input)
-		(at 157.48 63.5 180)
+		(at 175.26 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3307,7 +3480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0791fce4-f1e5-4a97-b050-84f555b44dc7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR08"
 			(at 50.8 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3368,7 +3541,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR014")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3386,7 +3559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aa9d64e-ae24-48cc-bbec-d484e0bb8a44")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR09"
 			(at 55.88 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3446,7 +3619,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR015")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3463,7 +3636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "123c45f8-8150-4246-ac86-3d7699139ccd")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 54.61 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3525,7 +3698,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3543,7 +3716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "170e66c0-fad4-4dae-ad81-a0c4f6fd8018")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 137.16 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +3780,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3615,7 +3788,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 234.95 59.69 0)
+		(at 252.73 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3625,8 +3798,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c819ed4-e214-42bc-8c27-ef73ebbd1b39")
-		(property "Reference" "C4"
-			(at 237.49 58.4199 0)
+		(property "Reference" "C15"
+			(at 255.27 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3637,7 +3810,7 @@
 			)
 		)
 		(property "Value" "1µF"
-			(at 237.49 60.9599 0)
+			(at 255.27 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3648,7 +3821,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 234.95 59.69 0)
+			(at 252.73 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,7 +3832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 59.69 0)
+			(at 252.73 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3843,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 234.95 69.85 0)
+			(at 252.73 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,7 +3862,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C4")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3706,7 +3879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25b2de3a-c832-4ee5-aa98-5c2188971ac1")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 43.434 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3779,7 +3952,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2649b252-5dbd-49b7-93cb-6815fcfce6a4")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 47.498 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,7 +4042,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3887,7 +4060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2652e4ad-3b09-440f-9f83-0f1e7e1aa181")
-		(property "Reference" "C17"
+		(property "Reference" "C11"
 			(at 128.27 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,7 +4124,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C17")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3959,7 +4132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 63.5 0)
+		(at 252.73 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3969,8 +4142,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e9a5ce-7b6d-4a5d-a1b0-034f3ca1c236")
-		(property "Reference" "#PWR06"
-			(at 234.95 69.85 0)
+		(property "Reference" "#PWR020"
+			(at 252.73 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,7 +4154,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 68.58 0)
+			(at 252.73 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3991,7 +4164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 63.5 0)
+			(at 252.73 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 63.5 0)
+			(at 252.73 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4013,7 +4186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 63.5 0)
+			(at 252.73 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4029,7 +4202,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR06")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4037,7 +4210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 59.69 0)
+		(at 236.22 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4046,8 +4219,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d7538c1-8b8f-4d54-8632-4b59776955d3")
-		(property "Reference" "#PWR08"
-			(at 218.44 66.04 0)
+		(property "Reference" "#PWR019"
+			(at 236.22 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4058,7 +4231,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 221.742 61.722 0)
+			(at 239.522 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4068,7 +4241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 59.69 0)
+			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4079,7 +4252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 59.69 0)
+			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4090,7 +4263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 59.69 0)
+			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4279,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4124,7 +4297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e89dce1-e5f4-4013-9041-f5c066c31841")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR014"
 			(at 123.19 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4184,7 +4357,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR020")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4201,7 +4374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31776708-23aa-4d6d-af3f-bd0b815a2dc4")
-		(property "Reference" "R16"
+		(property "Reference" "R10"
 			(at 54.61 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4263,7 +4436,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R16")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4280,7 +4453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32334f01-a083-4a34-8248-e15f130f3f9d")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 34.29 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,7 +4515,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4360,7 +4533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3272918f-f78d-461a-8892-45b244583d6e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR07"
 			(at 29.21 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4420,7 +4593,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR013")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4601,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 210.82 59.69 270)
+		(at 228.6 57.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4437,8 +4610,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38a94156-b854-41bd-a96e-6892a74cbfff")
-		(property "Reference" "R4"
-			(at 210.82 57.912 90)
+		(property "Reference" "R17"
+			(at 228.6 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4448,7 +4621,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 210.566 61.976 90)
+			(at 228.346 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4458,7 +4631,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 210.82 59.69 0)
+			(at 228.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4469,7 +4642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 59.69 0)
+			(at 228.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,7 +4653,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 210.82 59.69 0)
+			(at 228.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4499,7 +4672,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R4")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4507,7 +4680,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 154.94 76.2 0)
+		(at 172.72 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4516,8 +4689,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42dea45d-4e4b-413c-97e2-055a6e311e89")
-		(property "Reference" "C6"
-			(at 145.542 75.184 0)
+		(property "Reference" "C13"
+			(at 163.322 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4528,7 +4701,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 145.542 77.724 0)
+			(at 163.322 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4539,7 +4712,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 154.94 76.2 0)
+			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4550,7 +4723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 76.2 0)
+			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,7 +4734,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 154.94 86.36 0)
+			(at 172.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4580,7 +4753,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C6")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4597,7 +4770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "507b90db-19b3-481c-af98-b0ec03bdf3e7")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 38.1 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +4832,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C11")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4667,7 +4840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 162.56 50.8 0)
+		(at 180.34 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4677,8 +4850,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ab4fe5-73da-4fd9-b84f-14835e363f4a")
-		(property "Reference" "R2"
-			(at 165.1 49.5299 0)
+		(property "Reference" "R14"
+			(at 182.88 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4689,7 +4862,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 165.1 52.0699 0)
+			(at 182.88 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4700,7 +4873,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.56 50.8 0)
+			(at 180.34 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 50.8 0)
+			(at 180.34 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,7 +4895,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 162.56 50.8 0)
+			(at 180.34 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4741,7 +4914,182 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R2")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 222.25 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f5a09a8-3190-4844-b237-2450acb69c0b")
+		(property "Reference" "D4"
+			(at 226.06 110.8074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED_LED_3v3"
+			(at 226.06 113.3474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
+			(at 222.25 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 222.25 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "24f38b2a-4d22-4470-b293-ae197c629544")
+		)
+		(pin "1"
+			(uuid "44e6449f-e5f5-4fe6-b463-b6be63cfc825")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 222.25 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "680e830e-c3c6-4847-8781-f45a7990e2ec")
+		(property "Reference" "R16"
+			(at 224.79 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 224.79 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0892fbd0-a1bd-471a-ac89-ec46ef971526")
+		)
+		(pin "1"
+			(uuid "67b6a560-7c85-4bb9-9b37-d7c145e57df1")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4758,7 +5106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6876e446-95b2-4f9e-a0c5-dc2834f088e2")
-		(property "Reference" "C13"
+		(property "Reference" "C7"
 			(at 106.68 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4822,7 +5170,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C13")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4839,7 +5187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71e1ed99-a8b7-40f5-9765-743762ff65f5")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 40.64 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4901,7 +5249,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4909,7 +5257,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 162.56 76.2 0)
+		(at 180.34 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4919,8 +5267,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a20894-036e-4123-94dd-9d9db50556dd")
-		(property "Reference" "C5"
-			(at 165.1 74.9299 0)
+		(property "Reference" "C14"
+			(at 182.88 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4931,7 +5279,7 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 165.1 77.4699 0)
+			(at 182.88 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4942,7 +5290,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 162.56 76.2 0)
+			(at 180.34 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4953,7 +5301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 76.2 0)
+			(at 180.34 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4964,7 +5312,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 162.56 86.36 0)
+			(at 180.34 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +5331,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C5")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5001,7 +5349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "817e6fb8-4b68-4a22-a0a2-75ec0106b3ae")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR010"
 			(at 100.33 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5061,7 +5409,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR016")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5079,7 +5427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82920cb9-7971-40df-82e2-645d3d770d08")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR011"
 			(at 105.41 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5139,15 +5487,15 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR017")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 154.94 82.55 0)
+		(lib_id "Device:R_Small")
+		(at 200.66 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5156,30 +5504,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f4f181b-a194-4ac0-8403-8f27da95476d")
-		(property "Reference" "#PWR07"
-			(at 154.94 88.9 0)
-			(hide yes)
+		(uuid "8a754eed-b429-4b0f-b748-010a0482045c")
+		(property "Reference" "R15"
+			(at 203.2 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 203.2 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 154.94 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 82.55 0)
+		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+			(at 200.66 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5190,7 +5539,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 82.55 0)
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "343737f6-dbc5-47cb-bc0b-d8624d7d2abc")
+		)
+		(pin "1"
+			(uuid "725a1409-da12-4714-a80d-c28f3da9f943")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f4f181b-a194-4ac0-8403-8f27da95476d")
+		(property "Reference" "#PWR015"
+			(at 172.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5201,7 +5631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 82.55 0)
+			(at 172.72 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,7 +5647,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR07")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5225,7 +5655,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 72.39 0)
+		(at 224.79 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5235,8 +5665,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98554e53-fca1-4ea7-a280-d5c3722abea0")
-		(property "Reference" "#PWR05"
-			(at 207.01 78.74 0)
+		(property "Reference" "#PWR018"
+			(at 224.79 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5247,7 +5677,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 77.47 0)
+			(at 224.79 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5257,7 +5687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 72.39 0)
+			(at 224.79 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5268,7 +5698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 72.39 0)
+			(at 224.79 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5279,7 +5709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 72.39 0)
+			(at 224.79 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5295,7 +5725,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR05")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5313,7 +5743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98d81505-457e-4b2d-b073-633b14990cb1")
-		(property "Reference" "C15"
+		(property "Reference" "C9"
 			(at 118.11 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5377,7 +5807,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C15")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5394,7 +5824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9de560e5-c6c2-4f75-bb83-cc9bf5594e11")
-		(property "Reference" "R19"
+		(property "Reference" "R11"
 			(at 57.15 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5458,7 +5888,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R19")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5476,7 +5906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a03b67b1-6f2e-4048-aefe-c27dbea941ef")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 113.03 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +5968,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -5546,7 +5976,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 219.71 71.12 90)
+		(at 237.49 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5555,8 +5985,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6889d8c-80d3-4d22-8e95-61af9a1fdf82")
-		(property "Reference" "R3"
-			(at 219.456 69.342 90)
+		(property "Reference" "R18"
+			(at 237.236 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5566,7 +5996,7 @@
 			)
 		)
 		(property "Value" "10m"
-			(at 219.456 73.152 90)
+			(at 237.236 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5576,7 +6006,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 219.71 71.12 0)
+			(at 237.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5587,7 +6017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 71.12 0)
+			(at 237.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5598,7 +6028,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 219.71 71.12 0)
+			(at 237.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +6047,85 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R3")
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e6eae9-9aa1-4ebe-8ec2-4b2b10d20e68")
+		(property "Reference" "#PWR016"
+			(at 200.66 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c5cab64-208b-4026-bf6d-ee6dda783369")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5635,7 +6143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8edacb8-213d-4752-a73f-c3d6334a4681")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 78.74 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,7 +6287,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5797,7 +6305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca61b220-37fb-4f53-b7e1-5a919f7c2507")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR013"
 			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5857,7 +6365,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR019")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5874,7 +6382,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caf4f4ed-cab8-4298-b8ab-6658658fcf0b")
-		(property "Reference" "R12"
+		(property "Reference" "R6"
 			(at 37.084 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5936,7 +6444,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R12")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5953,7 +6461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d281cdcf-c15f-4b8d-9f93-7615c252d849")
-		(property "Reference" "R17"
+		(property "Reference" "R12"
 			(at 101.854 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6015,7 +6523,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R17")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6033,7 +6541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d333013d-45e5-44dc-903f-b6fd11106a09")
-		(property "Reference" "C14"
+		(property "Reference" "C8"
 			(at 113.03 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6097,7 +6605,85 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C14")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4667ed8-4855-4daf-a0aa-e80f5d7dcfe5")
+		(property "Reference" "#PWR017"
+			(at 222.25 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b301deae-b4fb-426a-aad3-082a51088c48")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee0f99a-5319-45de-8edd-021a3c98568f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR012"
 			(at 109.22 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6175,7 +6761,100 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR018")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 200.66 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e545b7b1-2836-4717-9e6d-d9dbac7deaf2")
+		(property "Reference" "D3"
+			(at 204.47 110.8074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED_LED_5V"
+			(at 204.47 113.3474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "62d23c2a-0d96-4834-a940-8d55bea0f6d0")
+		)
+		(pin "1"
+			(uuid "5d813aa6-67a6-4218-b1d3-118262efdda9")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6193,7 +6872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec03422c-971e-4b17-a677-242ad31cb46d")
-		(property "Reference" "R18"
+		(property "Reference" "R13"
 			(at 107.95 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,7 +6936,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R18")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6265,7 +6944,7 @@
 	)
 	(symbol
 		(lib_id "BQ27220YZFR:BQ27220YZFR")
-		(at 165.1 58.42 0)
+		(at 182.88 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6275,8 +6954,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2c8fac1-46c9-4be5-9a09-01c1af77886a")
-		(property "Reference" "U5"
-			(at 185.42 48.26 0)
+		(property "Reference" "U4"
+			(at 203.2 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6286,7 +6965,7 @@
 			)
 		)
 		(property "Value" "BQ27220YZFR"
-			(at 185.42 50.8 0)
+			(at 203.2 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6296,7 +6975,7 @@
 			)
 		)
 		(property "Footprint" "footprints_BQ27:YZF9_TEX"
-			(at 165.1 58.42 0)
+			(at 182.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,7 +6987,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/bq27220"
-			(at 165.1 58.42 0)
+			(at 182.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6320,7 +6999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 58.42 0)
+			(at 182.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6331,7 +7010,7 @@
 			)
 		)
 		(property "LCSC" "C528617"
-			(at 165.1 58.42 0)
+			(at 182.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6371,7 +7050,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6389,7 +7068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4fa1267-a877-4a22-91f6-20218ba0932f")
-		(property "Reference" "C16"
+		(property "Reference" "C10"
 			(at 127 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6453,7 +7132,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "C16")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6470,7 +7149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd92e316-7be4-4c95-8f23-241884d5fe60")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 27.94 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6532,7 +7211,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6549,7 +7228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff7ad94b-d3b1-4f55-8d1c-db4c3d4e8a49")
-		(property "Reference" "R15"
+		(property "Reference" "R9"
 			(at 54.864 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6611,7 +7290,7 @@
 		(instances
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "R15")
+					(reference "R9")
 					(unit 1)
 				)
 			)
