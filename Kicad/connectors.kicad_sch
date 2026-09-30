@@ -3382,7 +3382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 29.21 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4059,7 +4059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 102.87 90.17 0)
 			(hide yes)
 			(show_name no)
