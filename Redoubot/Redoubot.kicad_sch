@@ -665,184 +665,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LD39050PU33R:LD39050PU33R"
 			(pin_names
 				(offset 0.254)
@@ -2972,7 +2794,7 @@
 	)
 	(text "TX STM\nRX STM\n"
 		(exclude_from_sim no)
-		(at 72.39 108.204 0)
+		(at 72.39 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2981,22 +2803,16 @@
 		(uuid "d7f32570-3cf2-432b-85f4-70275b72c24c")
 	)
 	(junction
-		(at 262.89 133.35)
+		(at 201.93 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a16e330-be83-474a-b17d-221bf5f1c595")
+		(uuid "21d1b332-0d50-477e-be10-558be0d9aafe")
 	)
 	(junction
 		(at 20.32 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23b31c86-1497-461b-af3f-9913724a390a")
-	)
-	(junction
-		(at 201.93 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24b9b900-a642-4d72-a0c6-e9f4e03369f5")
 	)
 	(junction
 		(at 96.52 123.19)
@@ -3023,12 +2839,6 @@
 		(uuid "5f1e6246-214c-4715-b683-fb7790163efc")
 	)
 	(junction
-		(at 76.2 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6beffc34-69c3-417a-b140-ad14cdbad991")
-	)
-	(junction
 		(at 111.76 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3053,10 +2863,10 @@
 		(uuid "7b26c20f-425f-47f1-a1bb-b5af6653ba49")
 	)
 	(junction
-		(at 73.66 24.13)
+		(at 262.89 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9bda8647-5f01-45ed-add2-9663507718dc")
+		(uuid "aa92705c-380e-4594-b073-f0cd316afcac")
 	)
 	(junction
 		(at 71.12 24.13)
@@ -3087,6 +2897,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea88bb99-fc35-4e97-ba35-8bad74ca9156")
+	)
+	(junction
+		(at 66.04 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4661826-3692-4c1b-8510-be0545a531c1")
 	)
 	(junction
 		(at 104.14 71.12)
@@ -3748,6 +3564,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 19.05) (xy 66.04 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79aa3df1-0b97-4d62-abc9-3331ae9ee6a6")
+	)
+	(wire
+		(pts
 			(xy 68.58 30.48) (xy 68.58 24.13)
 		)
 		(stroke
@@ -3775,6 +3601,16 @@
 			(type default)
 		)
 		(uuid "7fb4aac3-b45f-46f3-9db5-9186c5974ff4")
+	)
+	(wire
+		(pts
+			(xy 195.58 128.27) (xy 201.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801fc4a2-6dbd-4f03-92e5-6f4ff45fcddd")
 	)
 	(wire
 		(pts
@@ -4098,6 +3934,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 19.05) (xy 66.04 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d64d24-1731-4bf4-a124-8da2d88b6fc5")
+	)
+	(wire
+		(pts
 			(xy 144.78 54.61) (xy 152.4 54.61)
 		)
 		(stroke
@@ -4155,6 +4001,16 @@
 			(type default)
 		)
 		(uuid "aeb7d7cc-44fc-4376-af16-953ce605e034")
+	)
+	(wire
+		(pts
+			(xy 279.4 153.67) (xy 279.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10d3218-ee5a-4d3a-91e2-01d0c3717482")
 	)
 	(wire
 		(pts
@@ -4218,6 +4074,26 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 153.67) (xy 279.4 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be078301-c3cb-437a-bc4a-4934be614ab7")
+	)
+	(wire
+		(pts
+			(xy 265.43 133.35) (xy 262.89 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f59855-dff5-40b6-a53b-e0074e15e8c8")
+	)
+	(wire
+		(pts
 			(xy 109.22 66.04) (xy 104.14 66.04)
 		)
 		(stroke
@@ -4255,16 +4131,6 @@
 			(type default)
 		)
 		(uuid "c86d18b4-e004-4535-b6d7-1e906fb1e7dc")
-	)
-	(wire
-		(pts
-			(xy 73.66 24.13) (xy 76.2 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca9eb5ee-bbae-4ec7-95f3-7fb70c26c23d")
 	)
 	(wire
 		(pts
@@ -4328,7 +4194,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 77.47) (xy 185.42 77.47)
+			(xy 175.26 77.47) (xy 185.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4576,6 +4442,16 @@
 		)
 		(uuid "12e8eb02-4b63-4010-b493-ede2bad60e56")
 	)
+	(label "GND"
+		(at 175.26 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18279fef-a8da-4af9-b0e5-216623b07067")
+	)
 	(label "SDA_ADA"
 		(at 254 68.58 0)
 		(effects
@@ -4627,7 +4503,7 @@
 		(uuid "2ef56841-c80c-4e28-93c2-51f66a12114a")
 	)
 	(label "LDO_VIN"
-		(at 201.93 118.11 180)
+		(at 195.58 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4735,6 +4611,16 @@
 			(justify right bottom)
 		)
 		(uuid "4f98a03c-44fb-436a-8e9f-3db3d4a1855d")
+	)
+	(label "+5V"
+		(at 63.5 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "555dabd5-da0d-42d9-b543-f94b2b799e9a")
 	)
 	(label "SCL_MPU"
 		(at 43.18 81.28 180)
@@ -5107,7 +4993,7 @@
 		(uuid "b2fcd21f-ca2b-4e41-8dd9-0e5994c82bce")
 	)
 	(label "+3.3V"
-		(at 273.05 133.35 0)
+		(at 265.43 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5305,6 +5191,30 @@
 			(justify right bottom)
 		)
 		(uuid "fba86ef4-e41f-45e6-a8fa-bc41467e8a05")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 276.86 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bdf883c1-bce0-4355-960b-e7f7b9436ac3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.0043 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32G4:STM32G431RBTx")
@@ -5588,6 +5498,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 279.4 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "091258e9-deac-4e7b-ba0b-df06634846b8")
+		(property "Reference" "#PWR012"
+			(at 279.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed0039f7-b8e7-4b4d-96cf-e5f67a4842fb")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 104.14 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -5776,7 +5764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DFN6_3X3_STM"
+		(property "Footprint" "footprints_LD39:DFN6_3X3_STM"
 			(at 262.89 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5858,7 +5846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5901,245 +5889,6 @@
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 201.93 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "48c5609f-57e9-4cc1-86ff-f9ad9dfb34a0")
-		(property "Reference" "JP2"
-			(at 203.708 119.126 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JMP_LDO_in"
-			(at 203.708 121.666 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 201.93 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 207.01 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "88a60a45-5d5e-4470-8021-6ea9bc0568a2")
-		)
-		(pin "1"
-			(uuid "fec31a4d-d413-40cb-9aad-5440b214797c")
-		)
-		(instances
-			(project "Redoubot"
-				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 166.37 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51fba7e3-da5f-4ca4-84b0-025b54fcf19b")
-		(property "Reference" "#PWR012"
-			(at 166.37 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 169.164 79.248 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e095b9f2-f944-487c-bf75-bb32a9020367")
-		)
-		(instances
-			(project "Redoubot"
-				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 267.97 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d218c92-379b-44c4-bb13-e799ea2325b0")
-		(property "Reference" "JP3"
-			(at 263.906 131.572 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JMP_LDO_out"
-			(at 266.446 131.572 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 267.97 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 267.97 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c8d03d12-cb21-464d-adc0-7d5828923620")
-		)
-		(pin "1"
-			(uuid "8e03b9bd-3393-4201-9100-e11f8e5cbf31")
-		)
-		(instances
-			(project "Redoubot"
-				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -6573,7 +6322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6654,7 +6403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6824,7 +6573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN6_3X3_STM"
+		(property "Footprint" "footprints_LD39:DFN6_3X3_STM"
 			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6922,7 +6671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
