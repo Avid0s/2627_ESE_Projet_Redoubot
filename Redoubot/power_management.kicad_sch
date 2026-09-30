@@ -2034,10 +2034,16 @@
 		(uuid "e5be92c1-d910-404b-b476-0cae30bae18f")
 	)
 	(junction
-		(at 50.8 82.55)
+		(at 48.26 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "023ff5c7-8126-4098-bab0-a3e789dd74c7")
+	)
+	(junction
+		(at 55.88 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0817f965-933d-46d0-815a-45afb96c331f")
 	)
 	(junction
 		(at 38.1 77.47)
@@ -2154,6 +2160,12 @@
 		(uuid "8000da08-8ced-40ee-a147-f69039efe7a0")
 	)
 	(junction
+		(at 55.88 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82458260-a9b7-46ad-a0df-7bb2ba2276de")
+	)
+	(junction
 		(at 123.19 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2200,10 +2212,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fca6cbb0-e0e4-4b76-94a4-77f71d8bd58b")
-	)
-	(no_connect
-		(at 58.42 87.63)
-		(uuid "877370f4-020c-4215-a685-686902380625")
 	)
 	(no_connect
 		(at 58.42 96.52)
@@ -2315,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 92.71) (xy 53.34 92.71)
+			(xy 58.42 92.71) (xy 55.88 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 82.55) (xy 44.45 82.55)
+			(xy 44.45 82.55) (xy 58.42 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2452,6 +2460,16 @@
 			(type default)
 		)
 		(uuid "3c2a2d30-9feb-4d0c-9f91-5803c4301405")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 58.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed3ff5a-00a4-4e42-acf4-0216aca3b2f8")
 	)
 	(wire
 		(pts
@@ -2612,6 +2630,16 @@
 			(type default)
 		)
 		(uuid "675a84c8-5a06-475b-9c3c-941f54a18229")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 48.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa8f7e0-80be-45d0-a1fd-741f5f0339f9")
 	)
 	(wire
 		(pts
@@ -2795,7 +2823,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 53.34 96.52)
+			(xy 55.88 92.71) (xy 55.88 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2855,6 +2883,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 86.36) (xy 55.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c837a5dc-b141-4c06-a0a3-08e1d6aa03e7")
+	)
+	(wire
+		(pts
 			(xy 99.06 31.75) (xy 99.06 34.29)
 		)
 		(stroke
@@ -2892,26 +2930,6 @@
 			(type default)
 		)
 		(uuid "d48fbc8b-2e97-4a8f-8a1d-e6ade913c535")
-	)
-	(wire
-		(pts
-			(xy 50.8 82.55) (xy 50.8 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d72edeb2-6275-4959-9a2f-b62d813a3174")
-	)
-	(wire
-		(pts
-			(xy 50.8 82.55) (xy 58.42 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d81f56a0-034c-4ffc-bc66-e44ce0e3bc62")
 	)
 	(wire
 		(pts
@@ -3124,7 +3142,7 @@
 		(uuid "e775628f-2d29-4111-9c5f-5b896af40fdd")
 	)
 	(hierarchical_label "SYS"
-		(shape input)
+		(shape output)
 		(at 43.18 66.04 180)
 		(effects
 			(font
@@ -3146,7 +3164,7 @@
 		(uuid "322f0be8-9089-40fc-b4b0-1df170282f2e")
 	)
 	(hierarchical_label "+5V"
-		(shape input)
+		(shape bidirectional)
 		(at 52.07 27.94 0)
 		(effects
 			(font
@@ -3157,7 +3175,7 @@
 		(uuid "348ec5d1-4687-4867-8f46-578421c837e8")
 	)
 	(hierarchical_label "SYS"
-		(shape input)
+		(shape output)
 		(at 137.16 31.75 0)
 		(effects
 			(font
@@ -3191,7 +3209,7 @@
 	)
 	(hierarchical_label "PWR_INT"
 		(shape input)
-		(at 50.8 87.63 270)
+		(at 48.26 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3233,6 +3251,17 @@
 		)
 		(uuid "a19cf8dc-d6b5-4fd6-af45-4d5996960169")
 	)
+	(hierarchical_label "OTG_EN"
+		(shape input)
+		(at 55.88 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b158eb3f-20fc-4d92-9766-584a522cfa7b")
+	)
 	(hierarchical_label "SDA_BAT"
 		(shape bidirectional)
 		(at 27.94 72.39 180)
@@ -3245,7 +3274,7 @@
 		(uuid "b81ffeaf-367c-4ac4-9db7-b690df624915")
 	)
 	(hierarchical_label "SYS"
-		(shape input)
+		(shape output)
 		(at 43.18 59.69 180)
 		(effects
 			(font
@@ -3347,7 +3376,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 96.52 0)
+		(at 55.88 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3358,7 +3387,7 @@
 		(fields_autoplaced yes)
 		(uuid "0aa9d64e-ae24-48cc-bbec-d484e0bb8a44")
 		(property "Reference" "#PWR015"
-			(at 53.34 102.87 0)
+			(at 55.88 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3369,7 +3398,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 101.6 0)
+			(at 55.88 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3379,7 +3408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 96.52 0)
+			(at 55.88 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +3419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 96.52 0)
+			(at 55.88 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3401,7 +3430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 96.52 0)
+			(at 55.88 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5349,6 +5378,87 @@
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 55.88 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9de560e5-c6c2-4f75-bb83-cc9bf5594e11")
+		(property "Reference" "R19"
+			(at 57.15 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 57.15 90.678 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 55.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7f36a72-435e-4b82-ac3d-973884a1afe5")
+		)
+		(pin "2"
+			(uuid "3b372e6d-0e92-4c04-a98c-26c3fd853dbb")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "R19")
 					(unit 1)
 				)
 			)

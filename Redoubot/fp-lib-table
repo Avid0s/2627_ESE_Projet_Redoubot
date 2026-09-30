@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "footprints_BQ25") (type "KiCad") (uri "${KIPRJMOD}/library/BQ25896RTWR/footprints.pretty") (options "") (descr ""))
 	(lib (name "footprints_BQ27") (type "KiCad") (uri "${KIPRJMOD}/library/BQ27220YZFR/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "footprints_LD39") (type "KiCad") (uri "${KIPRJMOD}/library/LD39050PU33R/KiCADv6/footprints.pretty") (options "") (descr ""))
 )

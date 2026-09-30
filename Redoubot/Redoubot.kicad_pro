@@ -417,6 +417,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -429,7 +437,7 @@
         "uuid": "43131b41-4104-4cd6-9c2f-4d5da1687300"
       }
     ],
-    "used_designators": "R1-19,J1-12,BT1,L1-2,D1-4,#PWR1-23,C1-20,Y1,U1-5",
+    "used_designators": "R1-19,BT1,L1-2,D1-4,C1-20,Y1,#PWR1-23,#PWR65-67,J1-14,U1-6",
     "variants": []
   },
   "sheets": [
@@ -450,8 +458,8 @@
       "Motor_Driver_Right"
     ],
     [
-      "089490fe-51aa-455e-8e68-3144de50c1de",
-      "Motor_Driver_Left"
+      "7dfaecab-a496-4ad1-bad4-8b5fe60e8651",
+      "USB_C"
     ]
   ],
   "text_variables": {},

@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "BQ25896RTWR") (type "KiCad") (uri "${KIPRJMOD}/library/BQ25896RTWR/BQ25896RTWR.kicad_sym") (options "") (descr ""))
 	(lib (name "BQ27220YZFR") (type "KiCad") (uri "${KIPRJMOD}/library/BQ27220YZFR/KiCADv6/BQ27220YZFR.kicad_sym") (options "") (descr ""))
+	(lib (name "LD39050PU33R") (type "KiCad") (uri "${KIPRJMOD}/library/LD39050PU33R/KiCADv6/LD39050PU33R.kicad_sym") (options "") (descr ""))
 )

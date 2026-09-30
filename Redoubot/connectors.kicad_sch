@@ -1370,6 +1370,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 115.57) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07370436-869c-44f4-af8d-bd71ba9eda7b")
+	)
+	(wire
+		(pts
 			(xy 121.92 45.72) (xy 116.84 45.72)
 		)
 		(stroke
@@ -1400,6 +1410,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 130.81) (xy 142.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b86b5a-a6f9-42fe-8b82-786603702676")
+	)
+	(wire
+		(pts
 			(xy 115.57 91.44) (xy 113.03 91.44)
 		)
 		(stroke
@@ -1407,6 +1427,16 @@
 			(type default)
 		)
 		(uuid "2739f2a6-93c2-4429-80e2-c034910454f5")
+	)
+	(wire
+		(pts
+			(xy 179.07 113.03) (xy 175.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275062cf-ea55-4e04-992c-0312d32023f0")
 	)
 	(wire
 		(pts
@@ -1440,6 +1470,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 113.03) (xy 142.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dfd1c4-db61-40dd-a9ee-7962eac9e19b")
+	)
+	(wire
+		(pts
 			(xy 87.63 127) (xy 90.17 127)
 		)
 		(stroke
@@ -1470,6 +1510,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 118.11) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b079acd-606b-428d-bebd-d193a4a56bd1")
+	)
+	(wire
+		(pts
 			(xy 90.17 96.52) (xy 87.63 96.52)
 		)
 		(stroke
@@ -1477,6 +1527,16 @@
 			(type default)
 		)
 		(uuid "3bda16c1-efb5-4c5c-a6bf-fa42b19d6bc3")
+	)
+	(wire
+		(pts
+			(xy 207.01 115.57) (xy 203.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da27817-edcc-4253-aecb-eb2c4ddc9a50")
 	)
 	(wire
 		(pts
@@ -1497,6 +1557,16 @@
 			(type default)
 		)
 		(uuid "567b412e-455e-43f7-87dc-19d4bf1c3232")
+	)
+	(wire
+		(pts
+			(xy 179.07 128.27) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56bb78c1-bb1f-40f6-ab9b-effaaeaf12d5")
 	)
 	(wire
 		(pts
@@ -1537,6 +1607,16 @@
 			(type default)
 		)
 		(uuid "7cc58c47-1876-4732-8301-090e89ebe001")
+	)
+	(wire
+		(pts
+			(xy 147.32 128.27) (xy 142.24 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a83fb6-30d4-4453-8e77-2db5952ab3c8")
 	)
 	(wire
 		(pts
@@ -1670,6 +1750,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 125.73) (xy 142.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47be8c4-bc67-46fc-9f96-ea899216a9f7")
+	)
+	(wire
+		(pts
 			(xy 87.63 73.66) (xy 90.17 73.66)
 		)
 		(stroke
@@ -1677,6 +1767,16 @@
 			(type default)
 		)
 		(uuid "d2873e5a-d7fe-44c1-8f67-baac921bdd35")
+	)
+	(wire
+		(pts
+			(xy 207.01 113.03) (xy 203.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49de4c0-f56c-4c3c-9a25-7c7479ec441c")
 	)
 	(wire
 		(pts
@@ -1717,6 +1817,46 @@
 			(type default)
 		)
 		(uuid "ffdc5a10-5b2f-4b49-b249-969ba844c0a7")
+	)
+	(label "SPK2"
+		(at 207.01 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d6ffe3f-9ac2-4105-b01d-69195ba304dd")
+	)
+	(label "SPK1"
+		(at 207.01 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30a997b2-32d2-41bf-b8a7-e3a922c2a54d")
+	)
+	(label "SPK2"
+		(at 147.32 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43e44799-be5b-425d-829b-a0eae8297af8")
+	)
+	(label "SPK1"
+		(at 147.32 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ddc90f1-d69a-43d8-bcdf-2c8dcf3ea13b")
 	)
 	(hierarchical_label "MR+"
 		(shape input)
@@ -1773,17 +1913,6 @@
 		)
 		(uuid "15a92aba-410f-4686-8a25-e35e57ab94e1")
 	)
-	(hierarchical_label "SPK2"
-		(shape input)
-		(at 142.24 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17d905f1-04c1-47dc-a0af-6abdae6ca523")
-	)
 	(hierarchical_label "SDA_ADA"
 		(shape bidirectional)
 		(at 90.17 91.44 0)
@@ -1808,7 +1937,7 @@
 	)
 	(hierarchical_label "VCC_DF"
 		(shape input)
-		(at 142.24 113.03 0)
+		(at 147.32 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1852,7 +1981,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 175.26 128.27 0)
+		(at 179.07 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1895,7 +2024,7 @@
 		(uuid "719e4a8a-8c52-465c-96a0-45cbcdd64a9e")
 	)
 	(hierarchical_label "TXD_HM10"
-		(shape input)
+		(shape output)
 		(at 90.17 124.46 0)
 		(effects
 			(font
@@ -1983,8 +2112,8 @@
 		(uuid "9525888c-acb4-4ffe-9dae-bc7d959dec8d")
 	)
 	(hierarchical_label "TX_DF"
-		(shape input)
-		(at 142.24 118.11 0)
+		(shape output)
+		(at 147.32 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2060,8 +2189,8 @@
 		(uuid "bc4d1695-9cef-4309-81ea-4f1c0006404a")
 	)
 	(hierarchical_label "BUSY"
-		(shape input)
-		(at 175.26 113.03 0)
+		(shape output)
+		(at 179.07 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2103,19 +2232,8 @@
 		)
 		(uuid "d21ff049-ddf2-4d7f-8658-4f9f467f5f6e")
 	)
-	(hierarchical_label "SPK1"
-		(shape input)
-		(at 142.24 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3b7042e-94cd-4e19-b671-e089e3e2394a")
-	)
 	(hierarchical_label "STATE_HM10"
-		(shape input)
+		(shape output)
 		(at 90.17 116.84 0)
 		(effects
 			(font
@@ -2127,7 +2245,7 @@
 	)
 	(hierarchical_label "RX_DF"
 		(shape input)
-		(at 142.24 115.57 0)
+		(at 147.32 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2138,7 +2256,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 142.24 128.27 0)
+		(at 147.32 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2921,6 +3039,86 @@
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/6319d978-6c6a-440c-b0e5-feb4687d4119"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 198.12 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96fdc8a8-33dd-487a-b592-0b1f359ef7d0")
+		(property "Reference" "J14"
+			(at 198.755 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Speaker"
+			(at 198.755 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
+			(at 198.12 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 198.12 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b7b19e0-8bb1-4e6a-aa58-d0e47bc1f1a0")
+		)
+		(pin "1"
+			(uuid "d576d6c6-f6ca-4296-8949-825c20441eb6")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/6319d978-6c6a-440c-b0e5-feb4687d4119"
+					(reference "J14")
 					(unit 1)
 				)
 			)
