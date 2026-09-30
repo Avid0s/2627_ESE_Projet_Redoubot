@@ -437,7 +437,11 @@
         "uuid": "43131b41-4104-4cd6-9c2f-4d5da1687300"
       }
     ],
+<<<<<<< Updated upstream
     "used_designators": "J1-14,R1-19,#PWR1-23,#PWR65-67,D1-4,L1-2,BT1,C1-20,Y1,U1-6",
+=======
+    "used_designators": "JP1-3,R1-20,BT1,L1-2,D1-4,C1-20,Y1,#PWR1-23,#PWR65-67,J1-14,U1-6",
+>>>>>>> Stashed changes
     "variants": []
   },
   "sheets": [
