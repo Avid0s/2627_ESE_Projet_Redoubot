@@ -4137,7 +4137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4499,7 +4499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4851,7 +4851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 147.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4949,7 +4949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical"
 			(at 73.66 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6223,7 +6223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical"
 			(at 73.66 55.88 0)
 			(hide yes)
 			(show_name no)

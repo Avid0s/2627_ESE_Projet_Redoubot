@@ -1103,8 +1103,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J14"
+				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1114,7 +1114,7 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1123,7 +1123,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1796,7 +1796,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5698,6 +5698,12 @@
 		(uuid "564b3731-a7ec-4e91-a9b2-313d2d54adb6")
 	)
 	(junction
+		(at 198.12 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "586e5d08-dcdc-4093-bf45-9d741e17c277")
+	)
+	(junction
 		(at 99.06 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6209,6 +6215,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 26.67) (xy 198.12 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d38bf64-7054-4eb2-a142-fccee5fba314")
+	)
+	(wire
+		(pts
 			(xy 190.5 85.09) (xy 217.17 85.09)
 		)
 		(stroke
@@ -6546,6 +6562,16 @@
 			(type default)
 		)
 		(uuid "60972e42-1212-47d6-8807-1751eb77886e")
+	)
+	(wire
+		(pts
+			(xy 198.12 26.67) (xy 198.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f8a249-1dc4-4a3e-9226-29de62f3c84b")
 	)
 	(wire
 		(pts
@@ -7166,16 +7192,6 @@
 			(type default)
 		)
 		(uuid "be530fad-881f-4d0e-83e8-28024f64ab31")
-	)
-	(wire
-		(pts
-			(xy 198.12 29.21) (xy 198.12 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be579076-fafc-424e-bc54-f7b8b77fa4c5")
 	)
 	(wire
 		(pts
@@ -8628,7 +8644,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 198.12 27.94 0)
+		(at 198.12 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8636,10 +8652,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18d4f1fc-ae13-4700-8003-60cfabb25149")
 		(property "Reference" "#PWR053"
-			(at 198.12 31.75 0)
+			(at 198.12 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8650,7 +8665,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 198.12 22.86 0)
+			(at 201.168 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8660,7 +8675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 27.94 0)
+			(at 198.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8671,7 +8686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 27.94 0)
+			(at 198.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8682,7 +8697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 198.12 27.94 0)
+			(at 198.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11328,7 +11343,7 @@
 		(pin "A6"
 			(uuid "da303b50-eed6-4f54-a246-313202053e9b")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "a715cf49-f422-460f-9d86-b2fe826326cc")
 		)
 		(instances
@@ -13377,6 +13392,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.31 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9babc546-4956-4679-a7c2-10792a0a29d9")
+		(property "Reference" "#PWR049"
+			(at 194.31 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 191.008 23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb1e0bd6-f8b6-49c4-86bf-a1c695ea3615")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 113.03 31.75 90)
 		(unit 1)
@@ -15267,7 +15359,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_FlatTop"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 243.84 82.55 0)
 			(hide yes)
 			(show_name no)
