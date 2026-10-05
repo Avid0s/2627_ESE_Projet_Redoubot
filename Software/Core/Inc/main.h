@@ -31,7 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "../../Middleware/battery_led/battery_led.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -59,10 +59,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define Quartz_0_Pin GPIO_PIN_0
-#define Quartz_0_GPIO_Port GPIOF
-#define Quartz_1_Pin GPIO_PIN_1
-#define Quartz_1_GPIO_Port GPIOF
+#define STATE_HM10_Pin GPIO_PIN_13
+#define STATE_HM10_GPIO_Port GPIOC
 #define PWM1_ML_Pin GPIO_PIN_0
 #define PWM1_ML_GPIO_Port GPIOC
 #define PWM2_ML_Pin GPIO_PIN_1
@@ -71,16 +69,20 @@ void Error_Handler(void);
 #define PWM1_MR_GPIO_Port GPIOC
 #define PWM2_MR_Pin GPIO_PIN_3
 #define PWM2_MR_GPIO_Port GPIOC
-#define Enc_B_R_Pin GPIO_PIN_0
-#define Enc_B_R_GPIO_Port GPIOA
-#define Enc_B_L_Pin GPIO_PIN_1
-#define Enc_B_L_GPIO_Port GPIOA
-#define Enc_A_L_Pin GPIO_PIN_2
-#define Enc_A_L_GPIO_Port GPIOA
-#define TXD_HM10_Pin GPIO_PIN_3
-#define TXD_HM10_GPIO_Port GPIOA
+#define ENCODER1A_Pin GPIO_PIN_0
+#define ENCODER1A_GPIO_Port GPIOA
+#define ENCODER1B_Pin GPIO_PIN_1
+#define ENCODER1B_GPIO_Port GPIOA
+#define SERVOR_Pin GPIO_PIN_2
+#define SERVOR_GPIO_Port GPIOA
+#define SERVOL_Pin GPIO_PIN_3
+#define SERVOL_GPIO_Port GPIOA
 #define PWM_NEOPIXEL_Pin GPIO_PIN_6
 #define PWM_NEOPIXEL_GPIO_Port GPIOA
+#define STLINK_TX_Pin GPIO_PIN_4
+#define STLINK_TX_GPIO_Port GPIOC
+#define STLINK_RX_Pin GPIO_PIN_5
+#define STLINK_RX_GPIO_Port GPIOC
 #define GPIO_BUSY_Pin GPIO_PIN_0
 #define GPIO_BUSY_GPIO_Port GPIOB
 #define RX_DF_Pin GPIO_PIN_10
@@ -95,28 +97,26 @@ void Error_Handler(void);
 #define GPIO_PWR_INT_GPIO_Port GPIOB
 #define GPOUT_FG_Pin GPIO_PIN_15
 #define GPOUT_FG_GPIO_Port GPIOB
-#define SCL_MPU_Pin GPIO_PIN_8
-#define SCL_MPU_GPIO_Port GPIOC
-#define SDA_MPU_Pin GPIO_PIN_9
-#define SDA_MPU_GPIO_Port GPIOC
+#define SCL_MPU_TOF_ADA_Pin GPIO_PIN_8
+#define SCL_MPU_TOF_ADA_GPIO_Port GPIOC
+#define SDA_MPU_TOF_ADA_Pin GPIO_PIN_9
+#define SDA_MPU_TOF_ADA_GPIO_Port GPIOC
 #define INT_ADA_Pin GPIO_PIN_9
 #define INT_ADA_GPIO_Port GPIOA
-#define Enc_A_R_Pin GPIO_PIN_10
-#define Enc_A_R_GPIO_Port GPIOA
+#define GPIO_TOF_Pin GPIO_PIN_10
+#define GPIO_TOF_GPIO_Port GPIOC
+#define GPIO_OTG_EN_Pin GPIO_PIN_2
+#define GPIO_OTG_EN_GPIO_Port GPIOD
 #define RXD_HM10_Pin GPIO_PIN_3
 #define RXD_HM10_GPIO_Port GPIOB
-#define GPIO_OTG_EN_Pin GPIO_PIN_4
-#define GPIO_OTG_EN_GPIO_Port GPIOB
+#define TXD_HM10_Pin GPIO_PIN_4
+#define TXD_HM10_GPIO_Port GPIOB
 #define XSHUT_TOF_Pin GPIO_PIN_5
 #define XSHUT_TOF_GPIO_Port GPIOB
-#define GPIO_TOF_Pin GPIO_PIN_6
-#define GPIO_TOF_GPIO_Port GPIOB
-#define PWM_SERVO_R_Pin GPIO_PIN_7
-#define PWM_SERVO_R_GPIO_Port GPIOB
-#define PWM_SERVO_L_Pin GPIO_PIN_8
-#define PWM_SERVO_L_GPIO_Port GPIOB
-#define STATE_HM10_Pin GPIO_PIN_9
-#define STATE_HM10_GPIO_Port GPIOB
+#define ENCODER2A_Pin GPIO_PIN_6
+#define ENCODER2A_GPIO_Port GPIOB
+#define ENCODER2B_Pin GPIO_PIN_7
+#define ENCODER2B_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
