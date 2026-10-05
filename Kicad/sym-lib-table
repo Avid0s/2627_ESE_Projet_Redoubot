@@ -3,4 +3,8 @@
 	(lib (name "BQ25896RTWR") (type "KiCad") (uri "${KIPRJMOD}/library/BQ25896RTWR/BQ25896RTWR.kicad_sym") (options "") (descr ""))
 	(lib (name "BQ27220YZFR") (type "KiCad") (uri "${KIPRJMOD}/library/BQ27220YZFR/KiCADv6/BQ27220YZFR.kicad_sym") (options "") (descr ""))
 	(lib (name "LD39050PU33R") (type "KiCad") (uri "${KIPRJMOD}/library/LD39050PU33R/KiCADv6/LD39050PU33R.kicad_sym") (options "") (descr ""))
+	(lib (name "DMN313DLT") (type "KiCad") (uri "${KIPRJMOD}/library/DMN313DLT-7/KiCADv6/2026-10-05_07-19-55.kicad_sym") (options "") (descr ""))
+	(lib (name "DMP1045UQ-7") (type "KiCad") (uri "${KIPRJMOD}/library/DMP1045UQ-7/KiCADv6/2026-10-05_07-37-32.kicad_sym") (options "") (descr ""))
+	(lib (name "MMDT2907A-7-F") (type "KiCad") (uri "${KIPRJMOD}/library/MMDT2907A-7-F/KiCADv6/2026-10-05_07-45-37.kicad_sym") (options "") (descr ""))
+	(lib (name "LM3281YFQR") (type "KiCad") (uri "${KIPRJMOD}/library/LM3281YFQR/KiCADv6/2026-10-05_07-58-36.kicad_sym") (options "") (descr ""))
 )
