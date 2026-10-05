@@ -5,7 +5,6 @@
  *      Author: geoff
  */
 
-
 #include "neopixel.h"
 
 #define RESET_SLOTS   80                                   // 80 x 1.25 us = 100 us of low level
@@ -13,7 +12,6 @@
 
 static uint8_t  colors[NEOPIXEL_COUNT][3];                 // r, g, b
 static uint16_t buf[BUF_LEN];                              // one compare value per bit
-static uint8_t  brightness = NEOPIXEL_BRIGHTNESS_DEFAULT;
 static volatile bool busy = false;
 
 void neopixel_init(void){
@@ -28,16 +26,12 @@ void neopixel_set(uint16_t index, uint8_t r, uint8_t g, uint8_t b){
 	colors[index][2] = b;
 }
 
-void neopixel_fill(uint8_t r, uint8_t g, uint8_t b){
-	for (uint16_t i = 0; i < NEOPIXEL_COUNT; i++) neopixel_set(i, r, g, b);
+void neopixel_fill_range(uint16_t first, uint16_t count, uint8_t r, uint8_t g, uint8_t b){
+	for (uint16_t i = first; i < first + count; i++) neopixel_set(i, r, g, b);
 }
 
 void neopixel_clear(void){
-	neopixel_fill(0, 0, 0);
-}
-
-void neopixel_set_brightness(uint8_t b){
-	brightness = b;
+	neopixel_fill_range(0, NEOPIXEL_COUNT, 0, 0, 0);
 }
 
 bool neopixel_is_busy(void){
@@ -55,9 +49,9 @@ bool neopixel_show(void){
 
 	uint32_t k = 0;
 	for (uint16_t i = 0; i < NEOPIXEL_COUNT; i++) {
-		uint32_t r = ((uint32_t)colors[i][0] * brightness) / 255;
-		uint32_t g = ((uint32_t)colors[i][1] * brightness) / 255;
-		uint32_t b = ((uint32_t)colors[i][2] * brightness) / 255;
+		uint32_t r = colors[i][0];
+		uint32_t g = colors[i][1];
+		uint32_t b = colors[i][2];
 		uint32_t grb = (g << 16) | (r << 8) | b;           // WS2812 expects G, R, B, MSB first
 
 		for (int bit = 23; bit >= 0; bit--)

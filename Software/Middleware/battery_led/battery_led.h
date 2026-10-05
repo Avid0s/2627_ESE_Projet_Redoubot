@@ -12,6 +12,9 @@
 #include <stdint.h>
 #include "neopixel.h"
 
+/* Brightness of the battery pixel, 0..255 (the ring has its own setting) */
+#define BATT_LED_BRIGHTNESS     64
+
 /* Below this level (in %) the LED blinks */
 #define BATT_LED_LOW_PERCENT    20
 /* The blinking stops only above LOW + HYSTERESIS, to avoid flickering around the threshold */

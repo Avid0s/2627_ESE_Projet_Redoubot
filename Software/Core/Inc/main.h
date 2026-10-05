@@ -31,7 +31,8 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "../../Middleware/battery_led/battery_led.h"
+#include "battery_led.h"
+#include "ringlight.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

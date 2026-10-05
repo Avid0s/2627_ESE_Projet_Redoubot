@@ -14,20 +14,19 @@
 
 extern TIM_HandleTypeDef htim3;       // defined in main.c by CubeMX
 
-#define NEOPIXEL_TIM                  htim3
-#define NEOPIXEL_CH                   TIM_CHANNEL_1
+#define NEOPIXEL_TIM            htim3
+#define NEOPIXEL_CH             TIM_CHANNEL_1
 
-/* Number of LEDs on the data line (to be set to match the real hardware) */
-#define NEOPIXEL_COUNT                1
-
-/* Global brightness 0..255, keeps the current draw reasonable */
-#define NEOPIXEL_BRIGHTNESS_DEFAULT   64
+/* Chain layout (set NEOPIXEL_RING_COUNT to match the real ring) */
+#define NEOPIXEL_BATT_INDEX     0
+#define NEOPIXEL_RING_FIRST     1
+#define NEOPIXEL_RING_COUNT     12
+#define NEOPIXEL_COUNT          (NEOPIXEL_RING_FIRST + NEOPIXEL_RING_COUNT)
 
 void neopixel_init(void);                                  // clears all LEDs
 void neopixel_set(uint16_t index, uint8_t r, uint8_t g, uint8_t b);
-void neopixel_fill(uint8_t r, uint8_t g, uint8_t b);
+void neopixel_fill_range(uint16_t first, uint16_t count, uint8_t r, uint8_t g, uint8_t b);
 void neopixel_clear(void);
-void neopixel_set_brightness(uint8_t brightness);          // 0..255
 bool neopixel_show(void);                                  // non-blocking, false if a transfer is still running
 bool neopixel_is_busy(void);
 

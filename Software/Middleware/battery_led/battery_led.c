@@ -5,7 +5,6 @@
  *      Author: geoff
  */
 
-
 #include "battery_led.h"
 
 static uint8_t  level = 100;
@@ -33,7 +32,6 @@ static void level_to_color(uint8_t percent, uint8_t *r, uint8_t *g, uint8_t *b){
 }
 
 void battery_led_init(void){
-	neopixel_init();
 	last_valid = false;
 }
 
@@ -70,10 +68,14 @@ void battery_led_update(void){
 	if (!blinking || blink_on)
 		level_to_color(level, &r, &g, &b);
 
+	r = (uint8_t)((r * BATT_LED_BRIGHTNESS) / 255);
+	g = (uint8_t)((g * BATT_LED_BRIGHTNESS) / 255);
+	b = (uint8_t)((b * BATT_LED_BRIGHTNESS) / 255);
+
 	/* Push only on change; if the DMA is busy, we retry at the next call */
 	if (last_valid && r == last_r && g == last_g && b == last_b) return;
 
-	neopixel_fill(r, g, b);
+	neopixel_set(NEOPIXEL_BATT_INDEX, r, g, b);
 	if (neopixel_show()) {
 		last_r = r; last_g = g; last_b = b;
 		last_valid = true;

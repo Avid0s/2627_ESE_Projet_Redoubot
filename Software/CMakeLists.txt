@@ -46,6 +46,7 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     Lowlevel/neopixel/neopixel.c
+    Lowlevel/ringlight/ringlight.c
     Middleware/battery_led/battery_led.c
 )
 
@@ -53,6 +54,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     Lowlevel/neopixel
+    Lowlevel/ringlight
     Middleware/battery_led
 )
 
