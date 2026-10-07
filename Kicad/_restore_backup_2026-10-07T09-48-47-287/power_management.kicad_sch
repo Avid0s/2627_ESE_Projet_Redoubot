@@ -5265,6 +5265,12 @@
 		(uuid "700b83e9-9907-4e88-bd56-0a5d5d1a601d")
 	)
 	(junction
+		(at 99.06 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7043a728-5b02-4ba3-b199-1cbd99d0468f")
+	)
+	(junction
 		(at 31.75 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5347,12 +5353,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf70d220-ad6e-45f5-bfa4-e955a65e58cf")
-	)
-	(junction
-		(at 99.06 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7966959-b115-47e0-89a7-65e3387a97bc")
 	)
 	(junction
 		(at 99.06 31.75)
@@ -8040,6 +8040,84 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 20.32 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c812e9-777a-4dcf-88c3-c7d1084220eb")
+		(property "Reference" "#PWR040"
+			(at 20.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 20.32 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 20.32 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bb8ddd3-9fa8-46da-a33f-88193962b34d")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 180.34 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -9216,84 +9294,6 @@
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 20.32 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32036880-f9a3-4ed4-ab3f-37bcc8eee078")
-		(property "Reference" "#PWR040"
-			(at 20.32 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 20.32 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 20.32 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63661af3-fd76-495c-b42e-06c235147968")
-		)
-		(instances
-			(project "Redoubot"
-				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13408,6 +13408,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c8edacb8-213d-4752-a73f-c3d6334a4681")
 		(property "Reference" "U3"
 			(at 78.74 21.59 0)
