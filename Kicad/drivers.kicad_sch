@@ -1812,6 +1812,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C15195"
+			(at 120.65 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6aa33b4a-0f8c-40ba-a43f-ef6f29c74ea0")
 		)
@@ -2344,6 +2355,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C12530"
+			(at 121.92 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f19fc128-2f14-4473-bd54-1900d7a9fb32")
 		)
@@ -2581,6 +2603,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C96446"
+			(at 87.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "910feb99-0363-4435-9c12-38d7fa3385a4")
 		)
@@ -2629,7 +2662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 76.2 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -2652,6 +2685,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 76.2 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C48935394"
 			(at 76.2 33.02 0)
 			(hide yes)
 			(show_name no)

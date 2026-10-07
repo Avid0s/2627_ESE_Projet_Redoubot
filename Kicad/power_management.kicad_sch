@@ -1103,8 +1103,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J14"
+				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1114,7 +1114,7 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1123,7 +1123,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1796,7 +1796,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5698,6 +5698,12 @@
 		(uuid "564b3731-a7ec-4e91-a9b2-313d2d54adb6")
 	)
 	(junction
+		(at 198.12 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "586e5d08-dcdc-4093-bf45-9d741e17c277")
+	)
+	(junction
 		(at 99.06 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6209,6 +6215,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 26.67) (xy 198.12 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d38bf64-7054-4eb2-a142-fccee5fba314")
+	)
+	(wire
+		(pts
 			(xy 190.5 85.09) (xy 217.17 85.09)
 		)
 		(stroke
@@ -6546,6 +6562,16 @@
 			(type default)
 		)
 		(uuid "60972e42-1212-47d6-8807-1751eb77886e")
+	)
+	(wire
+		(pts
+			(xy 198.12 26.67) (xy 198.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f8a249-1dc4-4a3e-9226-29de62f3c84b")
 	)
 	(wire
 		(pts
@@ -7166,16 +7192,6 @@
 			(type default)
 		)
 		(uuid "be530fad-881f-4d0e-83e8-28024f64ab31")
-	)
-	(wire
-		(pts
-			(xy 198.12 29.21) (xy 198.12 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be579076-fafc-424e-bc54-f7b8b77fa4c5")
 	)
 	(wire
 		(pts
@@ -8273,6 +8289,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C96446"
+			(at 54.61 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2796d106-f176-4bf4-9694-5ab8ae093f60")
 		)
@@ -8511,6 +8538,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C96446"
+			(at 133.35 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3833cc00-0a27-4d24-9f32-a9b8ff4afbf9")
 		)
@@ -8606,7 +8644,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 198.12 27.94 0)
+		(at 198.12 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8614,10 +8652,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18d4f1fc-ae13-4700-8003-60cfabb25149")
 		(property "Reference" "#PWR053"
-			(at 198.12 31.75 0)
+			(at 198.12 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8628,7 +8665,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 198.12 22.86 0)
+			(at 201.168 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8638,7 +8675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 27.94 0)
+			(at 198.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8649,7 +8686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 27.94 0)
+			(at 198.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8660,7 +8697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 198.12 27.94 0)
+			(at 198.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,6 +8855,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 270.51 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 270.51 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9076,6 +9124,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C965804"
+			(at 46.99 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c725177-e5b0-4112-adab-636db47fb4c4")
 		)
@@ -9166,6 +9225,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C965804"
+			(at 46.99 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "170d1759-f02b-4398-988e-b4833fe7deef")
 		)
@@ -9238,6 +9308,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C96446"
 			(at 124.46 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9530,7 +9611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "DMP1045UQ-7_DIO"
+		(property "Footprint" "footprints_DMP:DMP1045UQ-7_DIO"
 			(at 165.1 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10202,6 +10283,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52923"
+			(at 45.72 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "800b0829-8ebb-4140-ad92-ee50ef7921b4")
 		)
@@ -10250,7 +10342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10274,6 +10366,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 190.5 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1623"
+			(at 190.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10509,6 +10612,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 31.75 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 31.75 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11012,6 +11126,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C965804"
+			(at 265.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "24f38b2a-4d22-4470-b293-ae197c629544")
 		)
@@ -11218,7 +11343,7 @@
 		(pin "A6"
 			(uuid "da303b50-eed6-4f54-a246-313202053e9b")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "a715cf49-f422-460f-9d86-b2fe826326cc")
 		)
 		(instances
@@ -11425,7 +11550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.9048 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -11448,6 +11573,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1622"
 			(at 102.87 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11610,6 +11746,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C12530"
+			(at 198.12 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12942,7 +13089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-523_DIO"
+		(property "Footprint" "footprints_DMN:SOT-523_DIO"
 			(at 50.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -13218,6 +13365,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C96446"
+			(at 114.3 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "576ae0ac-3d4e-4976-b069-a50003e862ba")
 		)
@@ -13228,6 +13386,83 @@
 			(project "Redoubot"
 				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.31 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9babc546-4956-4679-a7c2-10792a0a29d9")
+		(property "Reference" "#PWR049"
+			(at 194.31 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 191.008 23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb1e0bd6-f8b6-49c4-86bf-a1c695ea3615")
+		)
+		(instances
+			(project "Redoubot"
+				(path "/43131b41-4104-4cd6-9c2f-4d5da1687300/73350c17-84ab-42d8-b086-6cfec23927e8"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -13265,7 +13500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
 			(at 113.03 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14562,6 +14797,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23733"
+			(at 109.22 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee63a084-7723-4813-8a1d-52de27e44449")
 		)
@@ -14764,7 +15010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-363_DIO"
+		(property "Footprint" "footprints_MMDT:SOT-363_DIO"
 			(at 146.05 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -15053,6 +15299,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C52923"
+			(at 105.41 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "79cee141-4332-4476-b00a-550d979e922c")
 		)
@@ -15137,6 +15394,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 243.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5756798"
+			(at 243.84 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15491,6 +15759,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 123.19 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C96446"
 			(at 123.19 35.56 0)
 			(hide yes)
 			(show_name no)

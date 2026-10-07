@@ -3429,6 +3429,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 166.37 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6bbb35ed-2a54-4a20-933e-8c532568ffd6")
 		)
@@ -3898,6 +3909,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 92.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6f2fe17-f509-4366-aa0a-249a5abe46a1")
 		)
@@ -4057,6 +4079,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 92.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c04b45a9-270a-47ac-90dd-da30240ed664")
 		)
@@ -4104,7 +4137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4325,6 +4358,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5343a51-4fca-4576-9fcb-39541702c3b6")
 		)
@@ -4455,7 +4499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4666,6 +4710,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 35.56 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91b375fc-eee4-445f-9950-b05a77966dbe")
 		)
@@ -4796,7 +4851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 147.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4894,7 +4949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical"
 			(at 73.66 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5269,6 +5324,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 53.34 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6fa31db4-b187-4fad-ae24-5077c6dcaac6")
 		)
@@ -5341,6 +5407,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 111.6439 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
+			(at 111.6439 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5755,6 +5832,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 83.82 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2369801f-a94a-4be3-8948-29c5ae5ee34d")
 		)
@@ -5827,6 +5915,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 114.3 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
+			(at 114.3 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical"
 			(at 73.66 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6736,6 +6835,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 53.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
+			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
