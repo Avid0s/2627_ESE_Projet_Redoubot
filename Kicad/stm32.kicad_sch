@@ -3192,6 +3192,10 @@
 		(uuid "6cb35553-28df-462d-807a-fea1331e1607")
 	)
 	(no_connect
+		(at 113.03 80.01)
+		(uuid "7cbec252-a68d-4082-bb96-184b0ac6f9f5")
+	)
+	(no_connect
 		(at 77.47 110.49)
 		(uuid "98172053-55a1-4e80-bf2f-04ddd34759e5")
 	)
@@ -3202,6 +3206,10 @@
 	(no_connect
 		(at 113.03 97.79)
 		(uuid "b3362d04-71e8-4214-af36-fc854989e54f")
+	)
+	(no_connect
+		(at 113.03 82.55)
+		(uuid "d661437c-90c7-407e-84d2-066e9b2b3462")
 	)
 	(no_connect
 		(at 113.03 90.17)
@@ -3459,16 +3467,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 133.35 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3131c929-1abb-4e16-89b2-496982c84f01")
-	)
-	(wire
-		(pts
 			(xy 113.03 59.69) (xy 133.35 59.69)
 		)
 		(stroke
@@ -3706,16 +3704,6 @@
 			(type default)
 		)
 		(uuid "8565766f-b848-42b4-bf20-5294d370f14a")
-	)
-	(wire
-		(pts
-			(xy 113.03 80.01) (xy 133.35 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b754990-ff68-4bd0-802e-a1d3d2a60f56")
 	)
 	(wire
 		(pts
@@ -4497,17 +4485,6 @@
 		)
 		(uuid "5f1857e2-342a-49dd-8e6e-f1fbb24fcba8")
 	)
-	(hierarchical_label "USB_DP"
-		(shape input)
-		(at 133.35 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61dda255-32fa-4b4e-b5a5-cfb9a5803bcf")
-	)
 	(hierarchical_label "SDA_TOF"
 		(shape input)
 		(at 50.8 102.87 180)
@@ -4650,17 +4627,6 @@
 			(justify right bottom)
 		)
 		(uuid "c2a6d757-bcbb-445d-be6e-670816f6d6e8")
-	)
-	(hierarchical_label "USB_DM"
-		(shape input)
-		(at 133.35 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca4df9a2-08e6-4cbb-a79e-1b70e8f895ce")
 	)
 	(hierarchical_label "GPIO_PWR_INT"
 		(shape input)
