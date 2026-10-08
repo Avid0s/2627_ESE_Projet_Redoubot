@@ -1902,6 +1902,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C160920"
+			(at 85.09 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0525db0a-c493-419b-ac53-31dee98ea413")
 		)
@@ -2050,6 +2061,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 85.09 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C160920"
+			(at 85.09 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2221,6 +2243,17 @@
 			)
 		)
 		(property "LCSC" "C50506"
+			(at 104.14 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C50506"
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
