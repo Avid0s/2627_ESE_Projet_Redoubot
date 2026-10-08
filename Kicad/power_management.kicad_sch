@@ -14685,7 +14685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints_BQ27:YZF9_TEX"
+		(property "Footprint" "Package_BGA:BGA-9_1.6x1.6mm_Layout3x3_P0.5mm"
 			(at 200.66 39.37 0)
 			(hide yes)
 			(show_name no)
