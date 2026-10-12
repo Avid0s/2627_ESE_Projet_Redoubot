@@ -6114,7 +6114,7 @@
 		(property "Reference" "H3"
 			(at 0 3.9 0)
 			(layer "F.SilkS")
-			(uuid "c228a0f6-d050-4986-87e3-a525cff22a6b")
+			(uuid "6e66861d-0e89-4359-93b1-d4a95b2d34f6")
 			(effects
 				(font
 					(size 1 1)
@@ -6125,7 +6125,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.8 0)
 			(layer "F.Fab")
-			(uuid "0d3b1560-0213-480f-9da5-afbebadf8d23")
+			(uuid "83524f5f-2618-479e-833b-8d5379b2d3f4")
 			(effects
 				(font
 					(size 1 1)
@@ -6137,7 +6137,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73640092-5517-4cc0-a1d0-28232c925377")
+			(uuid "ac52ff88-fe20-4b08-bb01-30603743437a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6148,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbb3c26f-7f26-490d-9f1a-e6adb1e832ef")
+			(uuid "aca1d847-9e76-4eff-ae95-4243ad8a929e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +6557,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C42"
-			(at 0 -1.16 90)
+			(at -0.05 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "9e12e9b7-ba97-43c1-bfb0-c40014c39245")
 			(effects
@@ -28791,7 +28791,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C40"
-			(at 0 -1.16 90)
+			(at -0.450001 -1.625 90)
 			(layer "F.SilkS")
 			(uuid "5e566829-73fe-4638-99f2-553078676c56")
 			(effects
@@ -29889,7 +29889,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "E-MENPIOT\nG-LOISELET\nG-VIDON\nJ-MANSARD\n\nL-FIACK\n {dblquote}---->"
+	(gr_text "E-MENPIOT\nG-LOISELET\nG-VIDON\nJ-MANSARD\n\nL-FIACK"
 		(at 114 125.6 0)
 		(layer "F.SilkS")
 		(uuid "df4cc22c-5bfc-4578-b454-693aef36759c")
@@ -33757,12 +33757,12 @@
 		(uuid "3604224f-8683-4eae-bd2c-81a5ea61c99e")
 	)
 	(segment
-		(start 136.942436 101.85)
-		(end 139.780761 101.85)
+		(start 138.75 101.25)
+		(end 144.546447 101.25)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "/Enc_A_L")
-		(uuid "2c1cf3fa-c0b7-4523-a52a-0936ac26769f")
+		(uuid "22d28682-dca9-4f84-8483-151ff2a99b56")
 	)
 	(segment
 		(start 136.871218 101.921218)
@@ -33770,7 +33770,15 @@
 		(width 0.3)
 		(layer "B.Cu")
 		(net "/Enc_A_L")
-		(uuid "4f92ddd4-b293-45ac-8fd7-01ebfceef3bb")
+		(uuid "595a26e2-6488-4cd8-8d09-19eea7ef007b")
+	)
+	(segment
+		(start 136.942436 101.85)
+		(end 138.15 101.85)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "/Enc_A_L")
+		(uuid "6d6fab5b-eb89-4c59-8c1b-12172944d0d7")
 	)
 	(segment
 		(start 144.546447 101.25)
@@ -33778,15 +33786,7 @@
 		(width 0.3)
 		(layer "B.Cu")
 		(net "/Enc_A_L")
-		(uuid "5263a54f-61cb-4c7a-b186-e03245c6e1df")
-	)
-	(segment
-		(start 140.380761 101.25)
-		(end 144.546447 101.25)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "/Enc_A_L")
-		(uuid "5c3267c5-0003-450b-ab8a-3c73f3fe9108")
+		(uuid "94f869b8-8522-4134-a980-ddba5465f17c")
 	)
 	(segment
 		(start 153.196447 92.6)
@@ -33794,15 +33794,15 @@
 		(width 0.3)
 		(layer "B.Cu")
 		(net "/Enc_A_L")
-		(uuid "6832f46e-7133-42ec-9dd2-14c1375180a6")
+		(uuid "f2ba0cf4-2663-4138-aa7e-fc7e2cbb63db")
 	)
 	(segment
-		(start 139.780761 101.85)
-		(end 140.380761 101.25)
+		(start 138.15 101.85)
+		(end 138.75 101.25)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "/Enc_A_L")
-		(uuid "f602afd3-14b7-4577-9e25-68439385e98e")
+		(uuid "fc4b7eb1-9f7f-47bf-9d10-d967c8426825")
 	)
 	(segment
 		(start 186.075 90.95)
@@ -35474,7 +35474,7 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/TXD_HM10")
-		(uuid "88523d31-317b-496d-8ad9-dab01db20068")
+		(uuid "9a123107-a9b1-44c9-842a-9146a309abc2")
 	)
 	(via
 		(at 147.2 85.2)
@@ -35493,28 +35493,28 @@
 		(uuid "9459450a-797b-4159-ad1c-72672b8bfe5e")
 	)
 	(segment
-		(start 152.55 85.2)
+		(start 153 84.8)
 		(end 152.95 84.8)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "/TXD_HM10")
-		(uuid "6660cb4e-fbe9-4320-b599-97469b31fd96")
+		(uuid "0fea2456-53cc-4448-818b-ea0f63097816")
 	)
 	(segment
 		(start 152.95 84.8)
-		(end 153 84.8)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "/TXD_HM10")
-		(uuid "7afb7bcf-400e-4400-b3d2-fb9e77e4979c")
-	)
-	(segment
-		(start 147.2 85.2)
 		(end 152.55 85.2)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "/TXD_HM10")
-		(uuid "c339f73e-0a85-42af-aca2-fab1ce38a1e8")
+		(uuid "5d29f261-fe47-46ab-bff8-3f7b2d398a7a")
+	)
+	(segment
+		(start 152.55 85.2)
+		(end 147.2 85.2)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "/TXD_HM10")
+		(uuid "e840e0b9-9431-484e-8907-6aa0e26b2b5c")
 	)
 	(segment
 		(start 145.6 67.8)
@@ -37317,6 +37317,22 @@
 		(uuid "19f4f3e6-1b33-4bea-8324-acc979e2912a")
 	)
 	(segment
+		(start 127.675 69.3)
+		(end 128.035 69.66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Power_management/BAT_CHG")
+		(uuid "202bb663-10ba-4e5c-96a8-39a5e07ed3ce")
+	)
+	(segment
+		(start 127.189999 69.3)
+		(end 127.675 69.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Power_management/BAT_CHG")
+		(uuid "27c9c0cf-df5a-4219-b347-b46c6e73f5df")
+	)
+	(segment
 		(start 126.8875 69.3)
 		(end 126.630754 69.043254)
 		(width 0.8)
@@ -37341,20 +37357,12 @@
 		(uuid "622daf03-f5d0-4511-9098-c5641cac2e7d")
 	)
 	(segment
-		(start 127.189999 69.3)
-		(end 127.65 69.3)
+		(start 126.875 69.614999)
+		(end 127.189999 69.3)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Power_management/BAT_CHG")
-		(uuid "660cf11a-3e12-4dc5-a72c-c14974e0ea74")
-	)
-	(segment
-		(start 128.035 69.685)
-		(end 128.035 71.865001)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Power_management/BAT_CHG")
-		(uuid "7411a13f-e2df-421c-893a-cccdfb60ca4c")
+		(uuid "64efbd0e-24f8-49bb-9af6-d2e762cabd88")
 	)
 	(segment
 		(start 138.475 85.975)
@@ -37363,14 +37371,6 @@
 		(layer "F.Cu")
 		(net "/Power_management/BAT_CHG")
 		(uuid "7ea4210b-0374-44ba-8dc5-7c3c280b8191")
-	)
-	(segment
-		(start 127.65 69.3)
-		(end 128.035 69.685)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Power_management/BAT_CHG")
-		(uuid "9fac83f9-856a-45e9-892b-d3b684bc3e4c")
 	)
 	(segment
 		(start 138.475 83.425)
@@ -37397,12 +37397,12 @@
 		(uuid "d6c2d4e0-7114-4302-a07e-f8a980bfd858")
 	)
 	(segment
-		(start 126.875 69.614999)
-		(end 127.189999 69.3)
+		(start 128.035 69.66)
+		(end 128.035 71.865001)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Power_management/BAT_CHG")
-		(uuid "e82f43aa-1063-4c08-9701-acac3e952d0d")
+		(uuid "e87fe9ef-21fa-4217-a9b6-1a569dc61436")
 	)
 	(segment
 		(start 126.8875 69.602499)
@@ -37597,6 +37597,14 @@
 		(uuid "10e217aa-ac00-4e3b-b9ad-0504feec0ba2")
 	)
 	(segment
+		(start 128.535 69.665)
+		(end 128.535 71.865)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Power_management/BAT")
+		(uuid "1b6ad94e-a092-451a-ad2d-6308f036b5f1")
+	)
+	(segment
 		(start 124.113491 69.213491)
 		(end 125.154999 70.254999)
 		(width 0.8)
@@ -37613,12 +37621,20 @@
 		(uuid "23c228aa-4620-4056-9102-01d0fc235d75")
 	)
 	(segment
-		(start 128.8 69.3)
-		(end 128.535 69.565)
+		(start 129.485001 69.3)
+		(end 128.9 69.3)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Power_management/BAT")
-		(uuid "60f9f372-b544-4d04-af2a-d3f83cb79a1d")
+		(uuid "2ec7d3fb-d6de-4678-9e1a-27845ae32ae4")
+	)
+	(segment
+		(start 128.9 69.3)
+		(end 128.535 69.665)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Power_management/BAT")
+		(uuid "5b4b05bc-a085-4b42-a35b-d0c7de74652c")
 	)
 	(segment
 		(start 124.113491 68.686509)
@@ -37661,28 +37677,12 @@
 		(uuid "8d0b9bba-9589-4951-962d-db4ccd197d7b")
 	)
 	(segment
-		(start 129.485001 69.3)
-		(end 128.8 69.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Power_management/BAT")
-		(uuid "8dd48014-3540-4be6-8d36-d04012fe68bd")
-	)
-	(segment
 		(start 125.7675 71.165)
 		(end 125.7675 70.854009)
 		(width 0.4)
 		(layer "F.Cu")
 		(net "/Power_management/BAT")
 		(uuid "9632bad7-ac6b-495e-afcc-f51a01d82d1e")
-	)
-	(segment
-		(start 128.535 69.565)
-		(end 128.535 71.865)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Power_management/BAT")
-		(uuid "9cb2c934-e5a6-4310-bba6-749b61597229")
 	)
 	(segment
 		(start 129.8 68.05)
@@ -37714,7 +37714,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/Power_management/BAT")
-		(uuid "dc3fd3fc-4991-4a61-9638-d8efd1116ff9")
+		(uuid "dab7f946-a5b8-4e41-9bfd-a0bea45f56bd")
 	)
 	(segment
 		(start 130.035 69.38)
