@@ -24,11 +24,13 @@ La facon dont l'implémentation de fonctionnalités sera faite sera la suivante:
 
 Les branches seront nommées JMA/nom_de_la_fonctionnalitée pour une branche fonctionnalité de J. Mansard par exemple
 
+Aucun push ne sera fait directement sur le main, tout sera merge post peer review
+
+Cette methodologie vise à éviter les merge conflicts et simplifier l'assemblage des différents modules
+
+
 
 ## TODO :
 - Créer schémas de programmation, style de ce qui a été fait en cours de RTOS (session4 p7)
 
-Aucun push ne sera fait directement sur le main, tout sera merge post peer review
-
-Cette methodologie vise à éviter les merge conflicts et simplifier l'assemblage des différents modules
 
