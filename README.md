@@ -20,7 +20,7 @@
 
 La facon dont l'implémentation de fonctionnalités sera faite sera la suivante:
 
-1 branche = 1 fonctionnalitée
+1 branche = 1 fonctionalité
 
 Les branches seront nommées JMA/nom_de_la_fonctionnalitée pour une branche fonctionnalité de J. Mansard par exemple
 
@@ -32,5 +32,6 @@ Cette methodologie vise à éviter les merge conflicts et simplifier l'assemblag
 
 ## TODO :
 - Créer schémas de programmation, style de ce qui a été fait en cours de RTOS (session4 p7)
+- Créer chronogrammes pour machines à état avec tâches blocantes
 
 
