@@ -4,6 +4,8 @@
 
 [PDF MPU 6050](https://docs.google.com/document/d/1O3AgjvM2_tZX7ABNkbS3lNtyRqeFLNvJ6qVK9URJxNs/edit?usp=drive_link)
 
+[BOM commande composants](https://docs.google.com/spreadsheets/d/1_k0gg7k1Y5h9V0FLCA0YabgreAiMSMoDTZmiZd1OaFM/edit?usp=sharing)
+
 | Composant | Référence | Lien | Quantité |
 |-----------|-----------|------|----------|
 | STM32 | CPU_DS_stm32g431rb | [Datasheet](https://github.com/Avid0s/2627_ESE_Projet_Redoubot/blob/main/Datasheet/CPU_DS_stm32g431rb.pdf) | x1 |
