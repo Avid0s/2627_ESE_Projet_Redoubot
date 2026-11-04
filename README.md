@@ -19,6 +19,8 @@
 | Batterie Lithium | XX | Fournie par ENSEA | x1 |
 | Fuel Gauge | BQ27220YZFR | [Datasheet](https://www.ti.com/lit/ds/symlink/bq27220.pdf?ts=1790240333206&ref_url=https%253A%252F%252Fwww.mouser.fr%252F) | x1 |
 | Sonde de programation | Conn_ST_STDC14 | Fournie par ENSEA| x1 |
+| Lecteur MicroSD | Module MP3 DFPlayer | XX | x1 |
+| Module Bluetooth | BT Module HM10 | XX | x1 |
 
 La facon dont l'implémentation de fonctionnalités sera faite sera la suivante:
 
