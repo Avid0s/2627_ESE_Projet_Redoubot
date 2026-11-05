@@ -35,7 +35,7 @@ Cette methodologie vise à éviter les merge conflicts et simplifier l'assemblag
 
 
 ## TODO :
-- Faire une liste des modules à acheter avec le prix HT + TTC et le lien d'achat
+- Timeline des tests phase bringup (tests réussis, échoués etc)
 - faire un organigramme de la partie software pour arrêter de coder en blind
 - Créer schémas de programmation, style de ce qui a été fait en cours de RTOS (session4 p7)
 - Créer chronogrammes pour machines à état avec tâches blocantes
