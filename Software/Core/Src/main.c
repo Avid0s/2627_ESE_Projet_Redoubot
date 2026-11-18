@@ -80,15 +80,15 @@ static void MX_USART1_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 int __io_putchar(int ch){
-	HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
+	HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
 	return ch;
 }
 
 int __io_getchar(void){
 	uint8_t ch = 0;
-	__HAL_UART_CLEAR_OREFLAG(&huart2);
-	HAL_UART_Receive(&huart2, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
-	HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
+	__HAL_UART_CLEAR_OREFLAG(&huart1);
+	HAL_UART_Receive(&huart1, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
+	HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
 	return ch;
 }
 /* USER CODE END 0 */
@@ -134,7 +134,7 @@ int main(void)
   MX_TIM15_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-	if (!APDS9960_Init(&hi2c1)) {   // use your I2C handle
+	if (!APDS9960_Init(&hi2c3)) {   // use your I2C handle
 		printf("APDS9960 init FAILED\r\n");
 	} else {
 		printf("APDS9960 init OK\r\n");
