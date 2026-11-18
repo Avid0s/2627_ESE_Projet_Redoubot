@@ -165,8 +165,9 @@ int main(void)
   BaseType_t status = pdPASS;
   status &= xTaskCreate(Task_MotionControl,   "Motion", 256, NULL, 4, NULL);
   status &= xTaskCreate(Task_FSM,             "FSM",    512, NULL, 3, NULL);
-  status &= xTaskCreate(Task_Telemetry_Audio, "Telem",  512, NULL, 2, NULL);
-  status &= xTaskCreate(Task_BatteryMonitor,  "Batt",   256, NULL, 1, NULL);
+  status &= xTaskCreate(Task_BatteryMonitor,  "Batt",   256, NULL, 2, NULL);
+  status &= xTaskCreate(Task_Telemetry_Audio, "Telem",  512, NULL, 1, NULL);
+
 
   vTaskStartScheduler();
   /* USER CODE END 2 */
