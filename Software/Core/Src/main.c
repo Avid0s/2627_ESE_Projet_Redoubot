@@ -960,6 +960,7 @@ void Task_Telemetry_Audio(void *pvParameters){
 	DFPlayer_Send_Command(0x06, 20);
 	vTaskDelay(pdMS_TO_TICKS(200));
 
+	Robot_LogBLU("[BOOT] RTOS ready\r\n");
 
 	for(;;){
 		if (xQueueReceive(qTelemetry, &rx_msg, portMAX_DELAY) == pdTRUE){

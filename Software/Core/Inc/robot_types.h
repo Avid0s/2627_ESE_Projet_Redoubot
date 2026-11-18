@@ -113,7 +113,7 @@ extern QueueHandle_t      qTelemetry;
 extern EventGroupHandle_t egRobotEvents;
 extern MotionCmd_t        g_MotionCmd;
 
-void Robot_LogBLE(const char *format, ...);
+void Robot_LogBLU(const char *str);
 void Robot_PlaySound(AudioTrack_t track);
 
 #endif /* SOFTWARE_CORE_INC_ROBOT_TYPES_H_ */
