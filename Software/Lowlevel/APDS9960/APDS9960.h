@@ -84,6 +84,7 @@
  * Function Prototypes
  -----------------------------------------*/
 bool APDS9960_Init(I2C_HandleTypeDef *hi2c);
+void APDS9960_Test(void);
 
 /* Enable / Disable Features */
 bool APDS9960_EnablePower(void);
