@@ -4,6 +4,8 @@
 
 [PDF MPU 6050](https://docs.google.com/document/d/1O3AgjvM2_tZX7ABNkbS3lNtyRqeFLNvJ6qVK9URJxNs/edit?usp=drive_link)
 
+[Test list](https://docs.google.com/spreadsheets/d/1OvtuwJ6tvBtZnWCYflAJZQOgMJ1y_GWguQvhbxgyZJY/edit?gid=0#gid=0)
+
 [BOM commande composants](https://docs.google.com/spreadsheets/d/1_k0gg7k1Y5h9V0FLCA0YabgreAiMSMoDTZmiZd1OaFM/edit?usp=sharing)
 
 | Composant | Référence | Lien | Quantité |
