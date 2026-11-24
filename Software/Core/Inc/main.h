@@ -31,8 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "battery_led.h"
-#include "ringlight.h"
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -62,14 +61,6 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define STATE_HM10_Pin GPIO_PIN_13
 #define STATE_HM10_GPIO_Port GPIOC
-#define PWM1_ML_Pin GPIO_PIN_0
-#define PWM1_ML_GPIO_Port GPIOC
-#define PWM2_ML_Pin GPIO_PIN_1
-#define PWM2_ML_GPIO_Port GPIOC
-#define PWM1_MR_Pin GPIO_PIN_2
-#define PWM1_MR_GPIO_Port GPIOC
-#define PWM2_MR_Pin GPIO_PIN_3
-#define PWM2_MR_GPIO_Port GPIOC
 #define ENCODER1A_Pin GPIO_PIN_0
 #define ENCODER1A_GPIO_Port GPIOA
 #define ENCODER1B_Pin GPIO_PIN_1
@@ -102,7 +93,15 @@ void Error_Handler(void);
 #define SCL_MPU_TOF_ADA_GPIO_Port GPIOC
 #define SDA_MPU_TOF_ADA_Pin GPIO_PIN_9
 #define SDA_MPU_TOF_ADA_GPIO_Port GPIOC
-#define INT_ADA_Pin GPIO_PIN_9
+#define PWM1_ML_Pin GPIO_PIN_8
+#define PWM1_ML_GPIO_Port GPIOA
+#define PWM2_ML_Pin GPIO_PIN_9
+#define PWM2_ML_GPIO_Port GPIOA
+#define PWM1_MR_Pin GPIO_PIN_10
+#define PWM1_MR_GPIO_Port GPIOA
+#define PWM2_MR_Pin GPIO_PIN_11
+#define PWM2_MR_GPIO_Port GPIOA
+#define INT_ADA_Pin GPIO_PIN_15
 #define INT_ADA_GPIO_Port GPIOA
 #define GPIO_TOF_Pin GPIO_PIN_10
 #define GPIO_TOF_GPIO_Port GPIOC
